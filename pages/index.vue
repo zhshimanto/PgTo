@@ -5,7 +5,7 @@
       <div class="w-full px-4 md:px-0 max-w-[1024px] mx-auto z-10 flex flex-col lg:flex-row items-center justify-between gap-8">
         <!-- Left Content -->
         <div class="w-full lg:w-1/2">
-          <h1 class="text-6xl font-bold mb-6 text-white" ref="heroTitle">Welcome to PG SLOT VEGAS</h1>
+          <h1 class="text-6xl font-bold mb-6 text-white" ref="heroTitle">Welcome to PGSLOT VEGAS</h1>
           <p class="text-xl mb-8 text-white/90" ref="heroText">Experience the thrill of premium slot games and Vegas-style gaming from anywhere in the world.</p>
           <NuxtLink to="/games" class="inline-block btn-gradient px-8 py-4 rounded-full text-lg font-bold text-black hover:scale-105 transition-transform duration-300" ref="heroButton">
             Explore Games
