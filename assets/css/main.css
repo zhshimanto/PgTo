@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  background-color: var(--primary-color);
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+:root {
+  --primary-color: #5067E7;
+  --secondary-color: #3E54D3;
+}
+
+/* Custom button gradient */
+.btn-gradient {
+  background: linear-gradient(180deg, #fbd95d, #ff851c 75%, #ff9417);
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(20px);
+}
