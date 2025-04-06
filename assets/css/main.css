@@ -12,11 +12,37 @@ body {
 :root {
   --primary-color: #5067E7;
   --secondary-color: #3E54D3;
+  --container-width: 1024px;
 }
 
 /* Custom button gradient */
 .btn-gradient {
   background: linear-gradient(180deg, #fbd95d, #ff851c 75%, #ff9417);
+}
+
+/* Container styles */
+.container {
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: var(--container-width);
+    padding: 0;
+  }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.score-table::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.score-table {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 .page-enter-active,

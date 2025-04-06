@@ -2,21 +2,26 @@
   <div>
     <!-- Hero Section -->
     <section class="min-h-screen relative flex items-center bg-primary">
-      
-      <div class="container mx-auto px-4 z-10">
-        <div class="max-w-3xl">
+      <div class="w-full px-4 md:px-0 max-w-[1024px] mx-auto z-10 flex flex-col lg:flex-row items-center justify-between gap-8">
+        <!-- Left Content -->
+        <div class="w-full lg:w-1/2">
           <h1 class="text-6xl font-bold mb-6 text-white" ref="heroTitle">Welcome to PG SLOT VEGAS</h1>
           <p class="text-xl mb-8 text-white/90" ref="heroText">Experience the thrill of premium slot games and Vegas-style gaming from anywhere in the world.</p>
           <NuxtLink to="/games" class="inline-block btn-gradient px-8 py-4 rounded-full text-lg font-bold text-black hover:scale-105 transition-transform duration-300" ref="heroButton">
             Explore Games
           </NuxtLink>
         </div>
+        
+        <!-- Right Content - Leaderboard -->
+        <div class="w-full lg:w-1/2 mt-8 lg:mt-0" ref="leaderboard">
+          <ScoreBoard />
+        </div>
       </div>
     </section>
 
     <!-- Featured Games Section -->
     <section class="py-20 bg-primary">
-      <div class="container mx-auto px-4">
+      <div class="w-full px-4 md:px-0 max-w-[1024px] mx-auto">
         <h2 class="text-4xl font-bold mb-12 text-center text-white" ref="featuredTitle">Featured Slots</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" ref="gameGrid">
           <div v-for="game in featuredGames" :key="game.id" class="game-card bg-secondary rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
@@ -37,14 +42,13 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-
-gsap.registerPlugin(ScrollTrigger)
+import gsap from 'gsap'
+import ScoreBoard from '~/components/ScoreBoard.vue'
 
 const heroTitle = ref(null)
 const heroText = ref(null)
 const heroButton = ref(null)
+const leaderboard = ref(null)
 const featuredTitle = ref(null)
 const gameGrid = ref(null)
 
@@ -52,8 +56,8 @@ const featuredGames = ref([
   {
     id: 1,
     name: 'Fortune Tiger',
-    description: 'Experience the power of the mighty tiger in this Asian-themed slot game.',
-    image: '/images/game1.jpg'
+    description: 'Discover the wealth of the East in this exciting slot game.',
+    image: '/img/games/fortune-tiger.jpg'
   },
   {
     id: 2,
@@ -70,48 +74,39 @@ const featuredGames = ref([
 ])
 
 onMounted(() => {
-  // Hero section animations
-  gsap.from(heroTitle.value, {
-    y: 100,
-    opacity: 0,
-    duration: 1,
-    delay: 0.2
-  })
+  // Hero Section Animation
+  const tl = gsap.timeline({ defaults: { duration: 1, ease: 'power3.out' } })
   
-  gsap.from(heroText.value, {
-    y: 50,
-    opacity: 0,
-    duration: 1,
-    delay: 0.4
+  tl.from(heroTitle.value, { 
+    y: 50, 
+    opacity: 0 
   })
-  
-  gsap.from(heroButton.value, {
-    y: 30,
-    opacity: 0,
-    duration: 1,
-    delay: 0.6
-  })
-
-  // Featured games section animations
-  gsap.from(featuredTitle.value, {
-    scrollTrigger: {
-      trigger: featuredTitle.value,
-      start: 'top 80%'
-    },
-    y: 50,
-    opacity: 0,
-    duration: 1
-  })
-
-  gsap.from(gameGrid.value.children, {
-    scrollTrigger: {
-      trigger: gameGrid.value,
-      start: 'top 80%'
-    },
-    y: 100,
-    opacity: 0,
-    duration: 0.8,
-    stagger: 0.2
-  })
+  .from(heroText.value, { 
+    y: 30, 
+    opacity: 0 
+  }, '-=0.8')
+  .from(heroButton.value, { 
+    y: 20, 
+    opacity: 0 
+  }, '-=0.8')
+  .from(leaderboard.value, {
+    x: 50,
+    opacity: 0
+  }, '-=0.8')
 })
 </script>
+
+<style>
+.btn-gradient {
+  background: linear-gradient(to right, #fbd95d, #ff851c);
+  transition: all 0.3s ease;
+}
+
+.bg-primary {
+  background-color: #5067e7;
+}
+
+.bg-secondary {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+</style>
