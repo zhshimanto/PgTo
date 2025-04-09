@@ -1,22 +1,15 @@
 <template>
-  <div>
-    <!-- Hero Section -->
-    <section class="min-h-screen relative flex items-center">
-      <div class="w-full px-4 md:px-0 max-w-[1024px] mx-auto z-10 flex flex-col lg:flex-row items-center justify-between gap-8">
-        <!-- Left Content -->
-        <div class="w-full lg:w-1/2">
-          <h1 class="text-6xl font-bold mb-6 text-white" ref="heroTitle">Welcome to PGSLOT VEGAS</h1>
-          <p class="text-xl mb-8 text-white/90" ref="heroText">Experience the thrill of premium slot games and Vegas-style gaming from anywhere in the world.</p>
-          <NuxtLink to="/games" class="inline-block btn-gradient px-8 py-4 rounded-full text-lg font-bold text-black hover:scale-105 transition-transform duration-300" ref="heroButton">
-            Explore Games
-          </NuxtLink>
-        </div>
+  <div class="pt-[72px]">
+    <!-- Hero Slider Section -->
+    <section class="mt-4">
+      <div class="mx-4">
+        <HeroSlider />
       </div>
     </section>
 
     <!-- Featured Games Section -->
     <section class="py-20">
-      <div class="w-full px-4 md:px-0 max-w-[1024px] mx-auto">
+      <div class="container mx-4">
         <h2 class="text-4xl font-bold mb-12 text-center text-white" ref="featuredTitle">Featured Slots</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" ref="gameGrid">
           <div v-for="game in featuredGames" :key="game.id" class="game-card rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
@@ -39,11 +32,8 @@
 import { ref, onMounted } from 'vue'
 import gsap from 'gsap'
 import ScoreBoard from '~/components/ScoreBoard.vue'
+import HeroSlider from '~/components/HeroSlider.vue'
 
-const heroTitle = ref(null)
-const heroText = ref(null)
-const heroButton = ref(null)
-const leaderboard = ref(null)
 const featuredTitle = ref(null)
 const gameGrid = ref(null)
 
@@ -69,25 +59,7 @@ const featuredGames = ref([
 ])
 
 onMounted(() => {
-  // Hero Section Animation
-  const tl = gsap.timeline({ defaults: { duration: 1, ease: 'power3.out' } })
-  
-  tl.from(heroTitle.value, { 
-    y: 50, 
-    opacity: 0 
-  })
-  .from(heroText.value, { 
-    y: 30, 
-    opacity: 0 
-  }, '-=0.8')
-  .from(heroButton.value, { 
-    y: 20, 
-    opacity: 0 
-  }, '-=0.8')
-  .from(leaderboard.value, {
-    x: 50,
-    opacity: 0
-  }, '-=0.8')
+  // No hero section animation
 })
 </script>
 

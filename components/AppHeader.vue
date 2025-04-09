@@ -1,5 +1,5 @@
 <template>
-  <nav class="fixed top-0 left-0 w-full z-50 header-bg backdrop-blur-sm">
+  <nav class="fixed top-0 left-0 w-full z-50 bg-[#66364f]">
     <div class="container mx-auto px-4 !py-6">
       <div class="flex justify-between items-center">
         <NuxtLink to="/" class="text-2xl font-bold text-white">PG SLOT VEGAS</NuxtLink>
@@ -24,7 +24,7 @@
 
     <!-- Mobile Menu -->
     <div 
-      class="fixed top-[72px] left-0 w-full h-screen bg-[#66364f]/95 backdrop-blur-sm transform transition-transform duration-300 md:hidden"
+      class="fixed top-[72px] left-0 w-full h-screen bg-[#66364f] transform transition-transform duration-300 md:hidden"
       :class="{ 'translate-x-0': isMenuOpen, 'translate-x-full': !isMenuOpen }"
     >
       <div class="container mx-auto px-4 py-4">
@@ -81,10 +81,6 @@ onMounted(() => {
 </script>
 
 <style scoped>
-.header-bg {
-  background-color: rgba(102, 54, 79, 0.8);
-}
-
 .container {
   height: 100%;
 }
