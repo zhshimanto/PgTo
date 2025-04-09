@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-secondary text-white py-12">
+  <footer class="text-white py-12 mt-auto">
     <div class="container mx-auto px-4">
       <div class="grid grid-cols-1 place-items-center text-center">
         <!-- About Section -->
@@ -9,7 +9,7 @@
         </div>
       </div>
       <!-- Bottom Bar -->
-      <div class="border-t border-primary/20 mt-8 pt-8 text-sm text-center">
+      <div class="border-t border-white/20 mt-8 pt-8 text-sm text-center">
         <p>&copy; {{ new Date().getFullYear() }} PG SLOT VEGAS. All rights reserved.</p>
         <div class="mt-4 space-x-4">
           <NuxtLink to="/terms" class="hover:text-btn-start transition-colors">Terms & Conditions</NuxtLink>
@@ -32,9 +32,14 @@ gsap.registerPlugin(ScrollTrigger)
 onMounted(() => {
   // Footer animation
   gsap.from('footer', {
-    y: 50,
     opacity: 0,
-    duration: 1
+    y: 50,
+    duration: 1,
+    scrollTrigger: {
+      trigger: 'footer',
+      start: 'top bottom',
+      toggleActions: 'play none none reverse'
+    }
   })
 })
 </script>

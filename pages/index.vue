@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="min-h-screen relative flex items-center bg-primary">
+    <section class="min-h-screen relative flex items-center">
       <div class="w-full px-4 md:px-0 max-w-[1024px] mx-auto z-10 flex flex-col lg:flex-row items-center justify-between gap-8">
         <!-- Left Content -->
         <div class="w-full lg:w-1/2">
@@ -11,20 +11,15 @@
             Explore Games
           </NuxtLink>
         </div>
-        
-        <!-- Right Content - Leaderboard -->
-        <div class="w-full lg:w-1/2 mt-8 lg:mt-0" ref="leaderboard">
-          <ScoreBoard />
-        </div>
       </div>
     </section>
 
     <!-- Featured Games Section -->
-    <section class="py-20 bg-primary">
+    <section class="py-20">
       <div class="w-full px-4 md:px-0 max-w-[1024px] mx-auto">
         <h2 class="text-4xl font-bold mb-12 text-center text-white" ref="featuredTitle">Featured Slots</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" ref="gameGrid">
-          <div v-for="game in featuredGames" :key="game.id" class="game-card bg-secondary rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+          <div v-for="game in featuredGames" :key="game.id" class="game-card rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
             <img :src="game.image" :alt="game.name" class="w-full h-48 object-cover">
             <div class="p-6">
               <h3 class="text-xl font-bold mb-2 text-white">{{ game.name }}</h3>
@@ -96,17 +91,18 @@ onMounted(() => {
 })
 </script>
 
-<style>
+<style scoped>
 .btn-gradient {
   background: linear-gradient(to right, #fbd95d, #ff851c);
   transition: all 0.3s ease;
 }
 
-.bg-primary {
-  background-color: #5067e7;
+.btn-gradient:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(251, 217, 93, 0.3);
 }
 
-.bg-secondary {
-  background-color: rgba(0, 0, 0, 0.2);
+.game-card {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 </style>

@@ -4,7 +4,6 @@
 
 /* Custom styles */
 body {
-  background-color: var(--primary-color);
   color: white;
   font-family: 'Inter', sans-serif;
 }
