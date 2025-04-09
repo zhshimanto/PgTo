@@ -9,8 +9,8 @@ body {
 }
 
 :root {
-  --primary-color: #5067E7;
-  --secondary-color: #3E54D3;
+  --primary-color: #66364f;
+  --secondary-color: #665c60;
   --container-width: 1024px;
 }
 
