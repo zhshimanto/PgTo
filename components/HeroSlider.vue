@@ -20,7 +20,7 @@
     </div>
 
     <!-- Navigation Arrows -->
-    <div class="flex justify-between absolute top-1/2 -translate-y-1/2 inset-x-4">
+    <div class="hidden md:flex justify-between absolute top-1/2 -translate-y-1/2 inset-x-4">
       <button 
         @click="prevSlide" 
         class="w-12 h-12 flex items-center justify-center rounded-full bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 transition-colors"

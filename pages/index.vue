@@ -17,9 +17,9 @@
             <div class="p-6">
               <h3 class="text-xl font-bold mb-2 text-white">{{ game.name }}</h3>
               <p class="text-white/80 mb-4">{{ game.description }}</p>
-              <button class="btn-gradient text-black px-6 py-2 rounded-full hover:scale-105 transition-transform duration-300">
+              <a :href="game.buttonLink" class="inline-block btn-gradient text-black px-6 py-2 rounded-full hover:scale-105 transition-transform duration-300">
                 Play Now
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -42,19 +42,36 @@ const featuredGames = ref([
     id: 1,
     name: 'Fortune Tiger',
     description: 'Discover the wealth of the East in this exciting slot game.',
-    image: '/img/games/fortune-tiger.jpg'
+    image: '/img/games/fortune-tiger.jpg',
+    buttonLink: '/games/fortune-tiger'
   },
   {
     id: 2,
     name: 'Sweet Bonanza',
     description: 'A delicious candy-themed slot with exciting multiplier features.',
-    image: '/images/game2.jpg'
+    image: '/images/game2.jpg',
+    buttonLink: '/games/sweet-bonanza'
   },
   {
     id: 3,
     name: 'Gates of Olympus',
     description: 'Join Zeus in this mythological adventure with massive win potential.',
-    image: '/images/game3.jpg'
+    image: '/images/game3.jpg',
+    buttonLink: '/games/gates-of-olympus'
+  },
+  {
+    id: 4,
+    name: 'Gates of Olympus',
+    description: 'Join Zeus in this mythological adventure with massive win potential.',
+    image: '/images/game3.jpg',
+    buttonLink: '/games/gates-of-olympus-2'
+  },
+  {
+    id: 5,
+    name: 'Gates of Olympus',
+    description: 'Join Zeus in this mythological adventure with massive win potential.',
+    image: '/images/game3.jpg',
+    buttonLink: '/games/gates-of-olympus-3'
   }
 ])
 
