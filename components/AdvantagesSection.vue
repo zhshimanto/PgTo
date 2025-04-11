@@ -1,8 +1,8 @@
 <template>
-  <section class="py-20">
-    <div class="container mx-4">
-      <h2 class="max-w-3xl mx-auto text-4xl font-bold mb-12 text-white">Advantages of PG SLOT website</h2>
-      <ul class="max-w-3xl mx-auto space-y-4">
+  <section class="py-20 px-5 md:px-0">
+    <div class="mx-auto advantages-container">
+      <h2 class="text-2xl font-bold mb-4 text-white">Advantages of PG SLOT website</h2>
+      <ul class="space-y-4">
         <li class="text-gray-300 flex items-center">
           <span class="text-yellow-500 mr-2">•</span>
           24/7 Customer Support - Our dedicated team is available round the clock
@@ -31,3 +31,9 @@
     </div>
   </section>
 </template>
+
+<style scoped>
+.advantages-container {
+  max-width: 620px;
+}
+</style>
