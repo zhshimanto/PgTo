@@ -11,7 +11,7 @@
       >
         <div class="overflow-hidden">
           <img 
-            :src="`/images/slider/1920/Slider-${index + 1}.jpg`" 
+            :src="`/images/slider/1280/Slider-${index + 1}.jpg`" 
             :alt="`Slide ${index + 1}`"
             class="w-full transform-gpu"
           >
