@@ -42,15 +42,47 @@
           <h2>JACKPOT</h2>
           รางวัลใหญ่รอคุณอยู่
         </div>
-        <div class="bottom">1,542,129.53</div>
+        <div class="bottom">{{ formattedJackpot }}</div>
       </div>
     </div>
   </section>
 </template>
 
 <script>
+import { ref, onMounted, onUnmounted, computed } from 'vue'
+
 export default {
-  name: 'JackpotSection'
+  name: 'JackpotSection',
+  setup() {
+    const jackpot = ref(1542129.53)
+    let timer = null
+
+    const formattedJackpot = computed(() => {
+      return jackpot.value.toLocaleString('en-US', {
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2
+      })
+    })
+
+    const incrementJackpot = () => {
+      jackpot.value += 0.01
+    }
+
+    onMounted(() => {
+      // Update every 100ms (10 times per second)
+      timer = setInterval(incrementJackpot, 100)
+    })
+
+    onUnmounted(() => {
+      if (timer) {
+        clearInterval(timer)
+      }
+    })
+
+    return {
+      formattedJackpot
+    }
+  }
 }
 </script>
 
