@@ -3,6 +3,8 @@
     <HeroSlider />
     <AdvantagesSection />
     <FeaturedGames />
+    <SignupInvite />
+    <JackpotSection />
   </div>
 </template>
 
@@ -13,6 +15,8 @@ import ScoreBoard from '~/components/ScoreBoard.vue'
 import HeroSlider from '~/components/HeroSlider.vue'
 import FeaturedGames from '~/components/FeaturedGames.vue'
 import AdvantagesSection from '~/components/AdvantagesSection.vue'
+import SignupInvite from '~/components/SignupInvite.vue'
+import JackpotSection from '~/components/JackpotSection.vue'
 
 onMounted(() => {
   // No hero section animation
