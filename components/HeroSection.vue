@@ -19,7 +19,7 @@
           </div>
         </div>
         <div class="w-full md:w-1/2 mt-8 md:mt-0">
-          <ScoreBoard />
+          <HeroCarousel />
         </div>
       </div>
     </div>
@@ -27,7 +27,7 @@
 </template>
 
 <script setup>
-import ScoreBoard from '~/components/ScoreBoard.vue'
+import HeroCarousel from '~/components/HeroCarousel.vue'
 </script>
 
 <style scoped>

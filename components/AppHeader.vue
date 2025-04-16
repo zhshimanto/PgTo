@@ -7,7 +7,7 @@
         <!-- Desktop Menu -->
         <div class="hidden md:flex space-x-8">
           <NuxtLink to="/" class="text-white hover:text-btn-start transition-colors">Home</NuxtLink>
-          <NuxtLink to="/games" class="text-white hover:text-btn-start transition-colors">Games</NuxtLink>
+          <NuxtLink to="/promotions" class="text-white hover:text-btn-start transition-colors">Promotions</NuxtLink>
           <NuxtLink to="/about" class="text-white hover:text-btn-start transition-colors">About</NuxtLink>
         </div>
 
@@ -52,6 +52,7 @@ const isMenuOpen = ref(false)
 const menuItems = [
   { name: 'Home', path: '/' },
   { name: 'Games', path: '/games' },
+  { name: 'Promotions', path: '/promotions' },
   { name: 'About', path: '/about' }
 ]
 

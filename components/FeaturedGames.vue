@@ -1,8 +1,8 @@
 <template>
-  <section class="px-5 md:px-0">
+  <section class="px-5 md:px-0 mb-24">
     <div class="mx-auto featured-container">
       <h2 class="text-4xl font-bold mb-4 text-center text-white" ref="featuredTitle">Featured Slots</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8" ref="gameGrid">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-8" ref="gameGrid">
         <a v-for="game in featuredGames" 
            :key="game.id" 
            :href="game.buttonLink"
