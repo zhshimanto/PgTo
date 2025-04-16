@@ -25,37 +25,37 @@ const featuredGames = ref([
   {
     id: 1,
     name: 'Fortune Tiger',
-    image: '/images/games/1.jpg',
+    image: '/images/games/1.png',
     buttonLink: '#'
   },
   {
     id: 2,
     name: 'Sweet Bonanza',
-    image: '/images/games/2.jpg',
+    image: '/images/games/2.png',
     buttonLink: '#'
   },
   {
     id: 3,
     name: 'Gates of Olympus',
-    image: '/images/games/3.jpg',
+    image: '/images/games/3.png',
     buttonLink: '#'
   },
   {
     id: 4,
     name: 'Wild West Gold',
-    image: '/images/games/4.jpg',
+    image: '/images/games/4.png',
     buttonLink: '#'
   },
   {
     id: 5,
     name: 'Starlight Princess',
-    image: '/images/games/5.jpg',
+    image: '/images/games/5.png',
     buttonLink: '#'
   },
   {
     id: 6,
     name: 'Sugar Rush',
-    image: '/images/games/6.jpg',
+    image: '/images/games/6.png',
     buttonLink: '#'
   }
 ])
@@ -66,14 +66,5 @@ const featuredGames = ref([
   max-width: 620px;
 }
 
-.game-card {
-  background: linear-gradient(45deg, #ff4e9b, #12000a);
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(251, 217, 93, 0.3);
-}
 
-.game-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 4px 12px rgba(251, 217, 93, 0.3);
-}
 </style>

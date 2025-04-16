@@ -19,7 +19,7 @@
           <span>{{ item.rank }}</span>
         </div>
         <div class="avatar">
-          <img :src="'/img/avatar/' + item.avatar + '.jpg'" alt="">
+          <img :src="'/images/avatar/' + item.avatar + '.jpg'" alt="">
         </div>
         <div class="name">{{ item.name }}</div>
         <div class="reward" :class="{ first: index === 0 }">

@@ -49,9 +49,9 @@
           เพราะฉะนั้น อย่าพลาด กับโอกาสที่สุดแสนพิเศษนี้
         </p>
         <div class="actions">
-          <a href="#" target="_blank" class="button-link">
-            <span class="text">แอดไลน์</span>
-          </a>
+          <button class="btn-gradient px-8 py-3 rounded-full font-semibold text-[#12000a]">
+              Play Now
+            </button>
         </div>
       </div>
     </div>
@@ -198,6 +198,7 @@ export default {
 .pop-box .glass-box .actions {
   width: 240px;
   margin: 40px auto -55px;
+  text-align: center;
 }
 
 .button-link {
