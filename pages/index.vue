@@ -5,6 +5,7 @@
     <FeaturedGames />
     <SignupInvite />
     <JackpotSection />
+    <SafeContentSection />
   </div>
 </template>
 
