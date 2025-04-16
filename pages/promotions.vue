@@ -31,6 +31,21 @@
 </template>
 
 <script setup>
+useHead({
+  title: 'Promotions & Bonuses - PG SLOT VEGAS',
+  meta: [
+    { name: 'description', content: 'Discover amazing promotions and bonuses at PG SLOT VEGAS. Get welcome bonus, daily cashback, weekly reload bonus, and join our VIP program for exclusive rewards.' },
+    { name: 'keywords', content: 'PG SLOT VEGAS promotions, casino bonuses, welcome bonus, cashback, reload bonus, VIP program, casino rewards' },
+    { property: 'og:title', content: 'Promotions & Bonuses - PG SLOT VEGAS' },
+    { property: 'og:description', content: 'Discover amazing promotions and bonuses at PG SLOT VEGAS. Join now and claim your rewards!' },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:url', content: 'https://pg-vegas.com/promotions' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Promotions & Bonuses - PG SLOT VEGAS' },
+    { name: 'twitter:description', content: 'Discover amazing promotions and bonuses at PG SLOT VEGAS. Join now and claim your rewards!' }
+  ]
+})
+
 import { ref } from 'vue'
 
 const promotions = ref([
