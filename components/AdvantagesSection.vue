@@ -34,16 +34,16 @@
     <div class="container mx-auto">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div class="rounded-lg hover:transform hover:scale-105 transition-transform duration-300 object-cover">
-          <img src="/images/slider/1280/Slider-1.jpg" alt="Advantages 1" class="w-full">
+          <img src="/public/images/slider/1280/Slider-1.jpg" alt="Advantages 1" class="w-full">
         </div>
         <div class="rounded-lg hover:transform hover:scale-105 transition-transform duration-300 object-cover">
-          <img src="/images/slider/1280/Slider-2.jpg" alt="Advantages 2" class="w-full">
+          <img src="/public/images/slider/1280/Slider-2.jpg" alt="Advantages 2" class="w-full">
         </div>
         <div class="rounded-lg hover:transform hover:scale-105 transition-transform duration-300">
-          <img src="/images/slider/1280/Slider-3.jpg" alt="Advantages 3" class="w-full">
+          <img src="/public/images/slider/1280/Slider-3.jpg" alt="Advantages 3" class="w-full">
         </div>
         <div class="rounded-lg hover:transform hover:scale-105 transition-transform duration-300">
-          <img src="/images/slider/1280/Slider-4.jpg" alt="Advantages 4" class="w-full">
+          <img src="/public/images/slider/1280/Slider-4.jpg" alt="Advantages 4" class="w-full">
         </div>
       </div>
     </div>
