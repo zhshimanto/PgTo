@@ -8,7 +8,7 @@
            :href="game.buttonLink"
            class="game-card rounded-lg block">
           <div class="hover:scale-105 transition-transform duration-300">
-            <div class="w-full">
+            <div class="w-full overflow-hidden rounded-lg">
               <img :src="game.image" :alt="game.name" class="w-full object-cover" />
             </div>
             <h3 class="text-xl font-bold mb-2 text-white text-center">{{ game.name }}</h3>
