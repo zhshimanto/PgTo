@@ -51,50 +51,138 @@ import { ref } from 'vue'
 const promotions = ref([
   {
     id: 1,
-    name: 'Welcome Bonus',
-    description: 'Get up to 100% bonus on your first deposit',
-    image: '/images/promotions/1.png',
-    bonus: '100% up to ฿50,000',
+    name: 'Fortune Tiger',
+    description: 'Enjoy our latest and greatest promotion!',
+    image: '/images/promotions/1.webp',
+    bonus: 'Special Bonus',
     buttonLink: '#'
   },
   {
     id: 2,
-    name: 'Daily Cashback',
-    description: 'Receive up to 20% cashback on daily losses',
-    image: '/images/promotions/2.png',
-    bonus: '20% Cashback',
+    name: 'Sweet Bonanza',
+    description: 'Enjoy our latest and greatest promotion!',
+    image: '/images/promotions/2.webp',
+    bonus: 'Special Bonus',
     buttonLink: '#'
   },
   {
     id: 3,
-    name: 'Weekly Reload',
-    description: 'Reload your account and get extra bonus every week',
-    image: '/images/promotions/3.png',
-    bonus: '50% up to ฿25,000',
+    name: 'Gates of Olympus',
+    description: 'Enjoy our latest and greatest promotion!',
+    image: '/images/promotions/3.webp',
+    bonus: 'Special Bonus',
     buttonLink: '#'
   },
   {
     id: 4,
-    name: 'VIP Program',
-    description: 'Join our VIP program for exclusive benefits',
-    image: '/images/promotions/4.png',
-    bonus: 'Exclusive Rewards',
+    name: 'Wild West Gold',
+    description: 'Enjoy our latest and greatest promotion!',
+    image: '/images/promotions/4.webp',
+    bonus: 'Special Bonus',
     buttonLink: '#'
   },
   {
     id: 5,
-    name: 'Refer a Friend',
-    description: 'Get bonus for every friend you refer',
-    image: '/images/promotions/5.png',
-    bonus: '฿1,000 per referral',
+    name: 'Starlight Princess',
+    description: 'Enjoy our latest and greatest promotion!',
+    image: '/images/promotions/5.webp',
+    bonus: 'Special Bonus',
     buttonLink: '#'
   },
   {
     id: 6,
-    name: 'Tournament Prize Pool',
-    description: 'Participate in our weekly tournaments',
-    image: '/images/promotions/6.png',
-    bonus: '฿100,000 Prize Pool',
+    name: 'Sugar Rush',
+    description: 'Enjoy our latest and greatest promotion!',
+    image: '/images/promotions/6.webp',
+    bonus: 'Special Bonus',
+    buttonLink: '#'
+  },
+  {
+    id: 7,
+    name: 'Lucky Spin',
+    description: 'Enjoy our latest and greatest promotion!',
+    image: '/images/promotions/7.webp',
+    bonus: 'Special Bonus',
+    buttonLink: '#'
+  },
+  {
+    id: 8,
+    name: 'Mega Jackpot',
+    description: 'Enjoy our latest and greatest promotion!',
+    image: '/images/promotions/8.webp',
+    bonus: 'Special Bonus',
+    buttonLink: '#'
+  },
+  {
+    id: 9,
+    name: 'Golden Wheel',
+    description: 'Enjoy our latest and greatest promotion!',
+    image: '/images/promotions/9.webp',
+    bonus: 'Special Bonus',
+    buttonLink: '#'
+  },
+  {
+    id: 10,
+    name: 'Bonus Blast',
+    description: 'Enjoy our latest and greatest promotion!',
+    image: '/images/promotions/10.webp',
+    bonus: 'Special Bonus',
+    buttonLink: '#'
+  },
+  {
+    id: 11,
+    name: 'Super Streak',
+    description: 'Enjoy our latest and greatest promotion!',
+    image: '/images/promotions/11.webp',
+    bonus: 'Special Bonus',
+    buttonLink: '#'
+  },
+  {
+    id: 12,
+    name: 'Royal Rewards',
+    description: 'Enjoy our latest and greatest promotion!',
+    image: '/images/promotions/12.webp',
+    bonus: 'Special Bonus',
+    buttonLink: '#'
+  },
+  {
+    id: 13,
+    name: 'Cash Carnival',
+    description: 'Enjoy our latest and greatest promotion!',
+    image: '/images/promotions/13.webp',
+    bonus: 'Special Bonus',
+    buttonLink: '#'
+  },
+  {
+    id: 14,
+    name: 'Spin Frenzy',
+    description: 'Enjoy our latest and greatest promotion!',
+    image: '/images/promotions/14.webp',
+    bonus: 'Special Bonus',
+    buttonLink: '#'
+  },
+  {
+    id: 15,
+    name: 'Jackpot Jive',
+    description: 'Enjoy our latest and greatest promotion!',
+    image: '/images/promotions/15.webp',
+    bonus: 'Special Bonus',
+    buttonLink: '#'
+  },
+  {
+    id: 16,
+    name: 'Vegas Nights',
+    description: 'Enjoy our latest and greatest promotion!',
+    image: '/images/promotions/16.webp',
+    bonus: 'Special Bonus',
+    buttonLink: '#'
+  },
+  {
+    id: 17,
+    name: "Winner's Circle",
+    description: 'Enjoy our latest and greatest promotion!',
+    image: '/images/promotions/17.webp',
+    bonus: 'Special Bonus',
     buttonLink: '#'
   }
 ])

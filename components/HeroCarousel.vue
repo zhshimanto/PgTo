@@ -36,37 +36,37 @@ const games = ref([
   {
     id: 1,
     name: 'Fortune Tiger',
-    image: '/images/games/1.png',
+    image: '/images/games/1.webp',
     buttonLink: '#'
   },
   {
     id: 2,
     name: 'Sweet Bonanza',
-    image: '/images/games/2.png',
+    image: '/images/games/2.webp',
     buttonLink: '#'
   },
   {
     id: 3,
     name: 'Gates of Olympus',
-    image: '/images/games/3.png',
+    image: '/images/games/3.webp',
     buttonLink: '#'
   },
   {
     id: 4,
     name: 'Wild West Gold',
-    image: '/images/games/4.png',
+    image: '/images/games/4.webp',
     buttonLink: '#'
   },
   {
     id: 5,
     name: 'Starlight Princess',
-    image: '/images/games/5.png',
+    image: '/images/games/5.webp',
     buttonLink: '#'
   },
   {
     id: 6,
     name: 'Sugar Rush',
-    image: '/images/games/6.png',
+    image: '/images/games/6.webp',
     buttonLink: '#'
   }
 ])
