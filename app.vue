@@ -35,7 +35,7 @@ import AppFooter from './components/AppFooter.vue'
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(254, 140, 140, 0.3);
+  background-color: rgba(255, 146, 164, 0.3);
   z-index: 1;
   pointer-events: none;
 }

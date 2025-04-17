@@ -186,9 +186,8 @@ export default {
   margin-bottom: 20px;
   border-radius: 10px;
   min-height: 200px;
-  -webkit-backdrop-filter: saturate(90%) brightness(115%) blur(18px);
-  backdrop-filter: saturate(90%) brightness(115%) blur(18px);
-  box-shadow: 0 20px 30px -20px rgba(0, 0, 0, 0.1);
+  background-color: #ff98ba;
+  box-shadow: 0 20px 30px -20px rgba(8, 7, 7, 0.1);
 }
 
 .pop-box .glass-box h2 {

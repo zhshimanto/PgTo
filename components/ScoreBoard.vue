@@ -79,7 +79,7 @@ const loadMore = () => {
 
 <style scoped>
 .score-board {
-  background: rgba(0, 0, 0, 0.2);
+  background: #c35a7c;
   border-radius: 15px;
   overflow: hidden;
   margin: 20px 0;
@@ -90,7 +90,7 @@ const loadMore = () => {
   display: grid;
   grid-template-columns: 60px 1fr 100px 100px;
   padding: 15px 20px;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(255, 139, 177, 1);
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
 }

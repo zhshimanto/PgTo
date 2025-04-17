@@ -3,17 +3,18 @@
     <div class="container mx-auto px-4">
       <div class="flex flex-col md:flex-row items-center justify-between gap-8">
         <div class="w-full md:w-1/2 text-white text-center md:text-left">
-          <h1 class="text-3xl md:text-5xl font-bold mb-4 md:mb-6 bg-gradient-to-r from-[#fbd95d] to-[#ff851c] bg-clip-text text-transparent leading-tight">
-            Experience Vegas-Style Gaming
+          <h1 class="text-3xl md:text-5xl font-bold mb-4 md:mb-6 bg-gradient-to-r from-[#eadb20] to-[#ffffff] bg-clip-text text-transparent leading-tight">
+            TOURNAMENT<br>
+            <span class="text-white">ประจำเดือนมีนาคม</span>
           </h1>
-          <p class="text-base md:text-lg mb-6 md:mb-8 text-gray-300 px-4 md:px-0">
-            Join the ultimate gaming destination where excitement meets opportunity. Play, win, and experience the thrill of Vegas from anywhere.
+          <p class="text-base md:text-lg mb-6 md:mb-8 text-white px-4 md:px-0">
+            ลำดับคะแนนทัวร์นาเมนท์ เดือน มีนาคม แจก 500,000. รับเงินสดเข้าบัญชี ถอนได้ทันที ไม่มีเงื่อนไข อ่านรายละเอียด.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-            <button class="btn-gradient px-6 md:px-8 py-3 rounded-full font-semibold text-[#12000a] text-sm md:text-base w-full sm:w-auto">
+            <button class="btn-gradient px-6 md:px-8 py-3 rounded-full font-semibold text-[#fff] text-sm md:text-base w-full sm:w-auto">
               Play Now
             </button>
-            <button class="border-2 border-[#fbd95d] px-6 md:px-8 py-3 rounded-full font-semibold text-white hover:bg-[#fbd95d] hover:text-[#12000a] transition-all duration-300 text-sm md:text-base w-full sm:w-auto">
+            <button class="border-2 border-[#fbd95d] px-6 md:px-8 py-3 rounded-full font-semibold text-white hover:bg-[#fbd95d] hover:text-[#ffffff] transition-all duration-300 text-sm md:text-base w-full sm:w-auto">
               Learn More
             </button>
           </div>

@@ -2,13 +2,15 @@
   <nav class="fixed top-0 left-0 w-full z-50 bg-[#ff98ba]">
     <div class="container mx-auto px-4 !py-6">
       <div class="flex justify-between items-center">
-        <NuxtLink to="/" class="text-2xl font-bold text-white">PG SLOT VEGAS</NuxtLink>
+        <NuxtLink to="/" class="text-2xl font-bold text-white">
+          <img src="/pgto-logo.webp" alt="PG SLOT VEGAS Logo">
+        </NuxtLink>
         
         <!-- Desktop Menu -->
         <div class="hidden md:flex space-x-8">
-          <NuxtLink to="/" class="text-white hover:text-btn-start transition-colors">Home</NuxtLink>
-          <NuxtLink to="/promotions" class="text-white hover:text-btn-start transition-colors">Promotions</NuxtLink>
-          <NuxtLink to="/about" class="text-white hover:text-btn-start transition-colors">About</NuxtLink>
+          <NuxtLink to="/" class="text-white hover:text-btn-start transition-colors">หน้าแรก</NuxtLink>
+          <NuxtLink to="/promotions" class="text-white hover:text-btn-start transition-colors">โปรโมชั่น</NuxtLink>
+          <NuxtLink to="/about" class="text-white hover:text-btn-start transition-colors">เข้าสู่ระบบ</NuxtLink>
         </div>
 
         <!-- Mobile Menu Button -->
