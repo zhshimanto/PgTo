@@ -1,5 +1,5 @@
 <template>
-  <nav class="fixed top-0 left-0 w-full z-50 bg-[#66364f]">
+  <nav class="fixed top-0 left-0 w-full z-50 bg-[#ff98ba]">
     <div class="container mx-auto px-4 !py-6">
       <div class="flex justify-between items-center">
         <NuxtLink to="/" class="text-2xl font-bold text-white">PG SLOT VEGAS</NuxtLink>

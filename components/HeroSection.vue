@@ -19,7 +19,7 @@
           </div>
         </div>
         <div class="w-full md:w-1/2 mt-8 md:mt-0">
-          <HeroCarousel />
+          <ScoreBoard />
         </div>
       </div>
     </div>
