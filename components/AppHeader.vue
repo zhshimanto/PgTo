@@ -1,55 +1,68 @@
 <template>
-  <nav class="fixed top-0 left-0 w-full z-50 bg-[#ff98ba]">
-    <div class="container mx-auto px-4 !py-6">
-      <div class="flex justify-between items-center">
-        <NuxtLink to="/" class="text-2xl font-bold text-white">
-          <img src="/pgto-logo.webp" alt="PG SLOT VEGAS Logo" class="w-48 h-auto">
-        </NuxtLink>
-        
-        <!-- Desktop Menu -->
-        <div class="hidden md:flex space-x-8">
-          <NuxtLink to="/" class="text-white hover:text-btn-start transition-colors">หน้าหลัก</NuxtLink>
-          <NuxtLink to="/promotions" class="text-white hover:text-btn-start transition-colors">โปรโมชั่น</NuxtLink>
-          <NuxtLink to="/demo" class="text-white hover:text-btn-start transition-colors">ทดลองเล่น</NuxtLink>
-          <NuxtLink to="/reviews" class="text-white hover:text-btn-start transition-colors">รีวิวเกม</NuxtLink>
-          <NuxtLink to="/contact" class="text-white hover:text-btn-start transition-colors">ติดต่อ</NuxtLink>
-          <NuxtLink to="/login" class="text-white hover:text-btn-start transition-colors">เข้าสู่ระบบ</NuxtLink>
-        </div>
+  <div>
+    <header class="fixed top-0 left-0 w-full z-50 bg-[#ff98ba]">
+      <div class="container mx-auto px-4 !py-6">
+        <div class="flex justify-between items-center">
+          <NuxtLink to="/" class="text-2xl font-bold text-white">
+            <img src="/pgto-logo.webp" alt="PG SLOT VEGAS Logo" class="w-48 h-auto">
+          </NuxtLink>
+          
+          <!-- Desktop Menu -->
+          <nav class="hidden md:flex space-x-8">
+            <NuxtLink to="/" class="text-white hover:text-btn-start transition-colors">หน้าหลัก</NuxtLink>
+            <NuxtLink to="/promotions" class="text-white hover:text-btn-start transition-colors">โปรโมชั่น</NuxtLink>
+            <NuxtLink to="/demo" class="text-white hover:text-btn-start transition-colors">ทดลองเล่น</NuxtLink>
+            <NuxtLink to="/reviews" class="text-white hover:text-btn-start transition-colors">รีวิวเกม</NuxtLink>
+            <NuxtLink to="/contact" class="text-white hover:text-btn-start transition-colors">ติดต่อ</NuxtLink>
+            <NuxtLink to="/login" class="text-white hover:text-btn-start transition-colors">เข้าสู่ระบบ</NuxtLink>
+          </nav>
 
-        <!-- Mobile Menu Button -->
-        <button @click="toggleMenu" class="md:hidden relative z-50 w-10 h-10 flex items-center justify-center" aria-label="Toggle Menu">
-          <div class="w-8 h-8 relative">
-            <span class="absolute w-full h-[2px] bg-white transition-all duration-300 rounded-full" 
-              :class="{ 'top-4 -rotate-45': isMenuOpen, 'top-1': !isMenuOpen }"></span>
-            <span class="absolute w-full h-[2px] bg-white transition-opacity duration-300 rounded-full top-4" 
-              :class="{ 'opacity-0': isMenuOpen }"></span>
-            <span class="absolute w-full h-[2px] bg-white transition-all duration-300 rounded-full" 
-              :class="{ 'top-4 rotate-45': isMenuOpen, 'top-7': !isMenuOpen }"></span>
-          </div>
-        </button>
+          <!-- Mobile Menu Button -->
+          <button @click="toggleMenu" class="md:hidden relative z-50 w-12 h-12 flex items-center justify-center bg-white/10 rounded-lg" aria-label="Toggle Menu">
+            <div class="w-6 h-6 relative flex items-center">
+              <span class="absolute w-full h-[4px] bg-white transition-all duration-300 left-0" 
+                :class="{ 'top-[14px] -rotate-45': isMenuOpen, 'top-1': !isMenuOpen }"></span>
+              <span class="absolute w-[60%] h-[4px] bg-white transition-opacity duration-300 left-0" 
+                :class="{ 'opacity-0': isMenuOpen, 'top-[14px]': !isMenuOpen }"></span>
+              <span class="absolute w-full h-[4px] bg-white transition-all duration-300 left-0" 
+                :class="{ 'top-[14px] rotate-45': isMenuOpen, 'top-[22px]': !isMenuOpen }"></span>
+            </div>
+          </button>
+        </div>
       </div>
-    </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div
+      class="fixed top-0 right-0 bottom-0 left-0 bg-black/60 z-40 pointer-events-none cursor-pointer transition-all duration-500 ease-in-out"
+      :class="{ 'opacity-100 pointer-events-auto': isMenuOpen, 'opacity-0': !isMenuOpen }"
+      @click="closeMenu"
+    ></div>
 
     <!-- Mobile Menu -->
-    <div 
-      class="fixed top-0 left-0 w-full h-screen bg-[#66364f]/95 backdrop-blur-sm transform transition-all duration-300 md:hidden flex items-center justify-center"
-      :class="{ 'opacity-100 visible': isMenuOpen, 'opacity-0 invisible': !isMenuOpen }"
+    <nav 
+      class="fixed top-0 right-0 w-[300px] min-h-screen bg-[#ff98ba] border-l-[10px] border-white transform transition-all duration-500 ease-in-out z-50 md:hidden"
+      :class="{ 'translate-x-0': isMenuOpen, 'translate-x-full': !isMenuOpen }"
     >
-      <div class="container mx-auto px-4 py-4">
-        <div class="flex flex-col items-center space-y-6">
+      <div class="pt-8 px-4">
+        <!-- Mobile Menu Logo -->
+        <div class="flex justify-center mb-12">
+          <img src="/pgto-logo.webp" alt="PG SLOT VEGAS Logo" class="w-48 h-auto">
+        </div>
+        <div class="flex flex-col space-y-6">
           <NuxtLink 
             v-for="item in menuItems" 
             :key="item.path" 
             :to="item.path" 
-            class="text-white text-2xl font-light hover:text-[#fbd95d] transition-all"
+            class="text-white text-xl font-light hover:text-[#fbd95d] transition-all border-b border-white/10 pb-4"
             @click="closeMenu"
           >
             {{ item.name }}
           </NuxtLink>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
 </template>
 
 <script setup>
