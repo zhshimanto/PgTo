@@ -8,14 +8,14 @@
             <span class="text-white">ประจำเดือนมีนาคม</span>
           </h1>
           <p class="text-base md:text-lg mb-6 md:mb-8 text-white px-4 md:px-0">
-            ลำดับคะแนนทัวร์นาเมนท์ เดือน มีนาคม แจก 500,000. รับเงินสดเข้าบัญชี ถอนได้ทันที ไม่มีเงื่อนไข อ่านรายละเอียด.
+            สล็อตออนไลน์ PG SLOT เว็บตรง จากเจ้าของลิขสิทธิ์แท้ สล็อตแตกง่าย ฝากถอนออโต้ มีโปรโมชั่นพิเศษที่มีเฉพาะในเว็บตรงเท่านั้น
           </p>
-          <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-            <button class="btn-gradient px-6 md:px-8 py-3 rounded-full font-semibold text-[#fff] text-sm md:text-base w-full sm:w-auto">
-              Play Now
+          <div class="flex flex-col gap-4 justify-center">
+            <button class="btn-gradient px-6 md:px-8 py-3 rounded-full font-semibold text-[#fff] text-sm md:text-base w-full max-w-[280px] mx-auto md:mx-0">
+              สมัครสมาชิก
             </button>
-            <button class="border-2 border-[#fbd95d] px-6 md:px-8 py-3 rounded-full font-semibold text-white hover:bg-[#fbd95d] hover:text-[#ffffff] transition-all duration-300 text-sm md:text-base w-full sm:w-auto">
-              Learn More
+            <button class="border-2 border-[#fbd95d] px-6 md:px-8 py-3 rounded-full font-semibold text-white hover:bg-[#fbd95d] hover:text-[#ffffff] transition-all duration-300 text-sm md:text-base w-full max-w-[280px] mx-auto md:mx-0">
+              เข้าสู่ระบบ
             </button>
           </div>
         </div>

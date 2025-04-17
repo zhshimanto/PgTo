@@ -1,20 +1,25 @@
 <template>
-  <footer class="text-white py-12 mt-auto">
-    <div class="container mx-auto px-4">
-      <div class="grid grid-cols-1 place-items-center text-center">
-        <!-- About Section -->
-        <div class="space-y-4 max-w-lg">
-          <h3 class="text-xl font-bold text-white">PG SLOT VEGAS</h3>
-          <p class="text-sm">Experience the thrill of premium slot games with the best online gaming experience.</p>
+  <footer class="text-white py-12 mt-auto w-full max-w-[640px] mx-auto">
+    <div class="mx-auto px-4 w-full">
+      <!-- Main Footer Content -->
+      <div class="flex flex-col md:flex-row justify-between items-center gap-6 md:gap-8 mb-8">
+        <!-- Logo Section -->
+        <div class="w-48">
+          <img src="/pgto-logo.webp" alt="PG SLOT VEGAS Logo" class="w-32 h-auto">
+        </div>
+        
+        <!-- Copyright -->
+        <div class="text-sm text-center md:text-right">
+          <p>&copy; {{ new Date().getFullYear() }} PG SLOT VEGAS. All rights reserved.</p>
         </div>
       </div>
-      <!-- Bottom Bar -->
-      <div class="border-t border-white/20 mt-8 pt-8 text-sm text-center">
-        <p>&copy; {{ new Date().getFullYear() }} PG SLOT VEGAS. All rights reserved.</p>
-        <div class="mt-4 space-x-4">
-          <NuxtLink to="/terms" class="hover:text-btn-start transition-colors">Terms & Conditions</NuxtLink>
-          <NuxtLink to="/privacy" class="hover:text-btn-start transition-colors">Privacy Policy</NuxtLink>
-          <NuxtLink to="/responsible-gaming" class="hover:text-btn-start transition-colors">Responsible Gaming</NuxtLink>
+
+      <!-- Footer Links -->
+      <div class="border-t border-white/10 pt-6">
+        <div class="flex flex-wrap justify-center gap-8 text-sm">
+          <NuxtLink to="/terms" class="hover:text-[#fbd95d] transition-colors">Terms & Conditions</NuxtLink>
+          <NuxtLink to="/privacy" class="hover:text-[#fbd95d] transition-colors">Privacy Policy</NuxtLink>
+          <NuxtLink to="/responsible-gaming" class="hover:text-[#fbd95d] transition-colors">Responsible Gaming</NuxtLink>
         </div>
       </div>
     </div>

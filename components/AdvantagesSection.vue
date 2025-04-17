@@ -1,5 +1,5 @@
 <template>
-  <section class="py-20 px-5 md:px-0">
+  <section class="py-10 px-5 md:px-0">
     <div class="mx-auto advantages-container">
       <h2 class="text-2xl font-bold mb-4 text-white">ข้อดีของ PG SLOT VEGAS เว็บตรง
       </h2>

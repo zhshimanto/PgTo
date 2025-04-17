@@ -34,37 +34,37 @@ const gameGrid = ref(null)
 const featuredGames = ref([
   {
     id: 1,
-    name: 'Fortune Tiger',
+    name: 'ทุกยอดฝาก 10%',
     image: '/images/games/1.webp',
     buttonLink: '#'
   },
   {
     id: 2,
-    name: 'Sweet Bonanza',
+    name: 'ฝากแรก 20%',
     image: '/images/games/2.webp',
     buttonLink: '#'
   },
   {
     id: 3,
-    name: 'Gates of Olympus',
+    name: 'ฝาก 80 รับ 240',
     image: '/images/games/3.webp',
     buttonLink: '#'
   },
   {
     id: 4,
-    name: 'Wild West Gold',
+    name: 'คืนยอดเสียสูง',
     image: '/images/games/4.webp',
     buttonLink: '#'
   },
   {
     id: 5,
-    name: 'Starlight Princess',
+    name: 'ฝาก 29 รับ 100',
     image: '/images/games/5.webp',
     buttonLink: '#'
   },
   {
     id: 6,
-    name: 'Sugar Rush',
+    name: 'สมาชิกใหม่ 100%',
     image: '/images/games/6.webp',
     buttonLink: '#'
   }

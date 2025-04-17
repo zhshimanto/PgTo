@@ -16,6 +16,18 @@ import AppFooter from './components/AppFooter.vue'
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap');
+
+html, body {
+  font-family: 'Kanit', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+  max-width: 100vw;
+}
+
 .site-wrapper {
   min-height: 100vh;
   background-image: url('/images/background/background1.jpg');
@@ -26,6 +38,9 @@ import AppFooter from './components/AppFooter.vue'
   position: relative;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100vw;
 }
 
 .site-wrapper::before {
@@ -43,6 +58,9 @@ import AppFooter from './components/AppFooter.vue'
 .content-wrapper {
   position: relative;
   z-index: 2;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100vw;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
