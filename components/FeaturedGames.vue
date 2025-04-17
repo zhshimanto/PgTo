@@ -6,9 +6,13 @@
         <a v-for="game in featuredGames" 
            :key="game.id" 
            :href="game.buttonLink"
-           class="game-card rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 block">
-          <img :src="game.image" :alt="game.name" class="w-full object-contain">
-          <h3 class="text-xl font-bold mb-2 text-white text-center">{{ game.name }}</h3>
+           class="game-card rounded-lg block">
+          <div class="hover:scale-105 transition-transform duration-300">
+            <div class="w-full">
+              <img :src="game.image" :alt="game.name" class="w-full object-cover" />
+            </div>
+            <h3 class="text-xl font-bold mb-2 text-white text-center">{{ game.name }}</h3>
+          </div>
         </a>
       </div>
     </div>
