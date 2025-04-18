@@ -18,14 +18,10 @@
           </nav>
 
           <!-- Mobile Menu Button -->
-          <button @click="toggleMenu" class="md:hidden relative z-50 w-12 h-12 flex items-center justify-center bg-white/10 rounded-lg" aria-label="Toggle Menu">
+          <button @click="toggleMenu" class="md:hidden relative z-50 w-12 h-12 flex items-center justify-center bg-[rgb(255_142_35)] rounded-[15px] shadow-[0_2px_0_#e4500f]" aria-label="Toggle Menu">
             <div class="w-6 h-6 relative flex items-center">
-              <span class="absolute w-full h-[4px] bg-white transition-all duration-300 left-0" 
-                :class="{ 'top-[14px] -rotate-45': isMenuOpen, 'top-1': !isMenuOpen }"></span>
-              <span class="absolute w-[60%] h-[4px] bg-white transition-opacity duration-300 left-0" 
-                :class="{ 'opacity-0': isMenuOpen, 'top-[14px]': !isMenuOpen }"></span>
-              <span class="absolute w-full h-[4px] bg-white transition-all duration-300 left-0" 
-                :class="{ 'top-[14px] rotate-45': isMenuOpen, 'top-[22px]': !isMenuOpen }"></span>
+              <span class="absolute w-full h-[4px] bg-white left-0 top-1 rounded-[50px] shadow-[1px_1px_1px_#de5454]"></span>
+              <span class="absolute w-[60%] h-[4px] bg-white left-0 top-[14px] rounded-[50px] shadow-[1px_1px_1px_#de5454]"></span>
             </div>
           </button>
         </div>
@@ -41,7 +37,7 @@
 
     <!-- Mobile Menu -->
     <nav 
-      class="fixed top-0 right-0 w-[300px] min-h-screen bg-[#ff98ba] border-l-[10px] border-white transform transition-all duration-500 ease-in-out z-50 md:hidden"
+      class="fixed top-0 right-0 w-[300px] h-screen bg-[#ff98ba] border-l-[10px] border-white transform transition-transform duration-300 ease-in-out z-[60] md:hidden overflow-y-auto"
       :class="{ 'translate-x-0': isMenuOpen, 'translate-x-full': !isMenuOpen }"
     >
       <div class="pt-8 px-4">
@@ -66,8 +62,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
-import { gsap } from 'gsap'
+import { ref } from 'vue'
 
 const isMenuOpen = ref(false)
 const menuItems = [
@@ -93,15 +88,7 @@ const closeMenu = () => {
   document.body.style.overflow = ''
 }
 
-onMounted(() => {
-  // Initialize GSAP animations
-  gsap.from('nav', {
-    y: -100,
-    opacity: 0,
-    duration: 1,
-    ease: 'power2.out'
-  })
-})
+
 </script>
 
 <style scoped>
