@@ -9,19 +9,12 @@
           <a v-for="promo in promotions" 
              :key="promo.id" 
              :href="promo.buttonLink"
-             class="rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 block">
+             class="rounded-lg overflow-hidden relative block">
             <div class="overflow-hidden">
               <img :src="promo.image" :alt="promo.name" class="w-full h-full object-cover">
             </div>
-            <div class="p-6">
-              <h3 class="text-xl font-bold mb-2 text-white">{{ promo.name }}</h3>
-              <p class="text-gray-300 mb-4">{{ promo.description }}</p>
-              <div class="flex items-center justify-between">
-                <span class="text-[#fbd95d] font-semibold">{{ promo.bonus }}</span>
-                <button class="btn-gradient px-4 py-2 rounded-full text-sm font-semibold text-[#12000a]">
-                  Claim Now
-                </button>
-              </div>
+            <div class="p-4">
+              <h3 class="text-xl font-bold text-white text-center">{{ promo.name }}</h3>
             </div>
           </a>
         </div>
@@ -51,138 +44,104 @@ import { ref } from 'vue'
 const promotions = ref([
   {
     id: 1,
-    name: 'Fortune Tiger',
-    description: 'Enjoy our latest and greatest promotion!',
+    name: 'ทุกยอดฝาก 10%',
     image: '/images/promotions/1.webp',
-    bonus: 'Special Bonus',
     buttonLink: '#'
   },
   {
     id: 2,
-    name: 'Sweet Bonanza',
-    description: 'Enjoy our latest and greatest promotion!',
+    name: 'ฝากแรก 20%',
     image: '/images/promotions/2.webp',
-    bonus: 'Special Bonus',
     buttonLink: '#'
   },
   {
     id: 3,
-    name: 'Gates of Olympus',
-    description: 'Enjoy our latest and greatest promotion!',
+    name: 'ฝาก 80 รับ 240',
     image: '/images/promotions/3.webp',
-    bonus: 'Special Bonus',
     buttonLink: '#'
   },
   {
     id: 4,
-    name: 'Wild West Gold',
-    description: 'Enjoy our latest and greatest promotion!',
+    name: 'คืนยอดเสียทุกวัน',
     image: '/images/promotions/4.webp',
-    bonus: 'Special Bonus',
     buttonLink: '#'
   },
   {
     id: 5,
-    name: 'Starlight Princess',
-    description: 'Enjoy our latest and greatest promotion!',
+    name: 'ฝาก 29 รับ 100',
     image: '/images/promotions/5.webp',
-    bonus: 'Special Bonus',
     buttonLink: '#'
   },
   {
     id: 6,
-    name: 'Sugar Rush',
-    description: 'Enjoy our latest and greatest promotion!',
+    name: 'สมาชิกใหม่ 100%',
     image: '/images/promotions/6.webp',
-    bonus: 'Special Bonus',
     buttonLink: '#'
   },
   {
     id: 7,
-    name: 'Lucky Spin',
-    description: 'Enjoy our latest and greatest promotion!',
+    name: 'กงล้อหมุนวงล้อฟรีเครดิต',
     image: '/images/promotions/7.webp',
-    bonus: 'Special Bonus',
     buttonLink: '#'
   },
   {
     id: 8,
-    name: 'Mega Jackpot',
-    description: 'Enjoy our latest and greatest promotion!',
+    name: 'ฝาก 40 รับ 120',
     image: '/images/promotions/8.webp',
-    bonus: 'Special Bonus',
     buttonLink: '#'
   },
   {
     id: 9,
-    name: 'Golden Wheel',
-    description: 'Enjoy our latest and greatest promotion!',
+    name: 'ระบบแรงกิ้ง',
     image: '/images/promotions/9.webp',
-    bonus: 'Special Bonus',
     buttonLink: '#'
   },
   {
     id: 10,
-    name: 'Bonus Blast',
-    description: 'Enjoy our latest and greatest promotion!',
+    name: 'ฝากแรกของวัน',
     image: '/images/promotions/10.webp',
-    bonus: 'Special Bonus',
     buttonLink: '#'
   },
   {
     id: 11,
-    name: 'Super Streak',
-    description: 'Enjoy our latest and greatest promotion!',
+    name: 'ฝาก 80 รับ 200',
     image: '/images/promotions/11.webp',
-    bonus: 'Special Bonus',
     buttonLink: '#'
   },
   {
     id: 12,
-    name: 'Royal Rewards',
-    description: 'Enjoy our latest and greatest promotion!',
+    name: 'กล่องสุ่มแจกเครดิต',
     image: '/images/promotions/12.webp',
-    bonus: 'Special Bonus',
     buttonLink: '#'
   },
   {
     id: 13,
-    name: 'Cash Carnival',
-    description: 'Enjoy our latest and greatest promotion!',
+    name: 'ฝาก 40 รับ 100',
     image: '/images/promotions/13.webp',
-    bonus: 'Special Bonus',
     buttonLink: '#'
   },
   {
     id: 14,
-    name: 'Spin Frenzy',
-    description: 'Enjoy our latest and greatest promotion!',
+    name: 'ชวนเพื่อนคอมมิชชั่น 0.3%',
     image: '/images/promotions/14.webp',
-    bonus: 'Special Bonus',
     buttonLink: '#'
   },
   {
     id: 15,
-    name: 'Jackpot Jive',
-    description: 'Enjoy our latest and greatest promotion!',
+    name: 'เช็คอินเครดิตฟรี 100',
     image: '/images/promotions/15.webp',
-    bonus: 'Special Bonus',
     buttonLink: '#'
   },
   {
     id: 16,
-    name: 'Vegas Nights',
-    description: 'Enjoy our latest and greatest promotion!',
+    name: 'โบนัสฟรีทั้งวัน',
     image: '/images/promotions/16.webp',
-    bonus: 'Special Bonus',
     buttonLink: '#'
   },
   {
     id: 17,
-    name: "Winner's Circle",
-    description: 'Enjoy our latest and greatest promotion!',
+    name: 'โปรเอาใจสมาชิกใหม่',
     image: '/images/promotions/17.webp',
-    bonus: 'Special Bonus',
     buttonLink: '#'
   }
 ])
