@@ -197,7 +197,7 @@ export default {
 }
 
 .jackpot .fg .main {
-  background: transparent url(/images/jackpot/captain-hook@2x.webp) no-repeat 100%;
+  background: transparent url(/images/jackpot/super-golf-lady.webp) no-repeat 100%;
   background-size: auto 415px;
   background-position: right -80px top 50px;
 }
