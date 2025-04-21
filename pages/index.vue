@@ -11,17 +11,17 @@
 
 <script setup>
 useHead({
-  title: 'PG SLOT VEGAS - Best Online Slot Games',
+  title: 'PG SLOT TO เว็บลิขสิทธิ์แท้พีจีสล็อตโบนัสแจ็กพอตแตกง่ายที่สุด 2025',
   meta: [
-    { name: 'description', content: 'Experience the thrill of premium slot games with PG SLOT VEGAS. Play the best online slots, get exclusive bonuses, and win big with our Vegas-style gaming experience.' },
-    { name: 'keywords', content: 'PG SLOT VEGAS, online slots, casino games, slot games, gambling, gaming, vegas slots' },
-    { property: 'og:title', content: 'PG SLOT VEGAS - Best Online Slot Games' },
-    { property: 'og:description', content: 'Experience the thrill of premium slot games with PG SLOT VEGAS. Play the best online slots and win big!' },
+    { name: 'description', content: 'PGSLOT.TO เว็บใหม่มาแรงที่สุดพร้อมให้บริการเกมลิขสิทธิ์แท้ส่งตรงจาก POCKET GAMES SOFT พีจีสล็อตสีชมพูแจ็กพอตแตกบ่อยฝากถอนไวจ่ายจริงผ่านระบบ API แท้ไม่ผ่านเอเยนต์' },
+    { name: 'keywords', content: 'PGSLOT, PG SLOT, PGSLOT TO, PG สีชมพู, สล็อตสีชมพู' },
+    { property: 'og:title', content: 'PG SLOT TO เว็บลิขสิทธิ์แท้พีจีสล็อตโบนัสแจ็กพอตแตกง่ายที่สุด 2025' },
+    { property: 'og:description', content: 'PGSLOT.TO เว็บใหม่มาแรงที่สุดพร้อมให้บริการเกมลิขสิทธิ์แท้ส่งตรงจาก POCKET GAMES SOFT พีจีสล็อตสีชมพูแจ็กพอตแตกบ่อยฝากถอนไวจ่ายจริงผ่านระบบ API แท้ไม่ผ่านเอเยนต์' },
     { property: 'og:type', content: 'website' },
-    { property: 'og:url', content: 'https://pg-vegas.com' },
+    { property: 'og:url', content: 'https://pgslott.top' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'PG SLOT VEGAS - Best Online Slot Games' },
-    { name: 'twitter:description', content: 'Experience the thrill of premium slot games with PG SLOT VEGAS. Play the best online slots and win big!' }
+    { name: 'twitter:title', content: 'PG SLOT TO เว็บลิขสิทธิ์แท้พีจีสล็อตโบนัสแจ็กพอตแตกง่ายที่สุด 2025' },
+    { name: 'twitter:description', content: 'PGSLOT.TO เว็บใหม่มาแรงที่สุดพร้อมให้บริการเกมลิขสิทธิ์แท้ส่งตรงจาก POCKET GAMES SOFT พีจีสล็อตสีชมพูแจ็กพอตแตกบ่อยฝากถอนไวจ่ายจริงผ่านระบบ API แท้ไม่ผ่านเอเยนต์' }
   ]
 })
 
