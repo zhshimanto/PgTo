@@ -6,5 +6,12 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss'
   ],
   css: ['~/assets/css/main.css'],
-  pages: true // Enable pages directory
+  pages: true,
+  components: {
+    global: true,
+    dirs: ['~/components']
+  },
+  imports: {
+    autoImport: true
+  }
 })
