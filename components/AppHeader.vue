@@ -70,7 +70,8 @@ const menuItems = [
   { name: 'หน้าหลัก', path: '/' },
   { name: 'โปรโมชั่น', path: '/promotions' },
   { name: 'ทดลองเล่น', path: '/demo' },
-  { name: 'รีวิวเกม', path: '/reviews' },
+  { name: 'เครดิตฟรี', path: '/free-credit' },
+  { name: 'แหล่งความรู้', path: '/blog' },
   { name: 'ติดต่อ', path: '/contact' },
   { name: 'เข้าสู่ระบบ', path: '/login' },
 ]
