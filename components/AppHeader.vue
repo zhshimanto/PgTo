@@ -12,9 +12,10 @@
             <NuxtLink to="/" class="text-white hover:text-btn-start transition-colors">หน้าหลัก</NuxtLink>
             <NuxtLink to="/promotions" class="text-white hover:text-btn-start transition-colors">โปรโมชั่น</NuxtLink>
             <NuxtLink to="/demo" class="text-white hover:text-btn-start transition-colors">ทดลองเล่น</NuxtLink>
+            <NuxtLink to="/free-credit" class="text-white hover:text-btn-start transition-colors">เครดิตฟรี</NuxtLink>
             <NuxtLink to="/blog" class="text-white hover:text-btn-start transition-colors">แหล่งความรู้</NuxtLink>
             <NuxtLink to="/contact" class="text-white hover:text-btn-start transition-colors">ติดต่อ</NuxtLink>
-            <NuxtLink to="/login" class="text-white hover:text-btn-start transition-colors">เข้าสู่ระบบ</NuxtLink>
+            <NuxtLink to="https://playpgslot.to/" class="text-white hover:text-btn-start transition-colors">เข้าสู่ระบบ</NuxtLink>
           </nav>
 
           <!-- Mobile Menu Button -->
