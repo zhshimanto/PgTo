@@ -5,7 +5,7 @@
         <h1 class="text-4xl md:text-5xl font-bold mb-8 text-center text-white">
           Latest Promotions
         </h1>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <a v-for="promo in promotions" 
              :key="promo.id" 
              :href="promo.buttonLink"
