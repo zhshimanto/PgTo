@@ -177,7 +177,7 @@ export default {
 }
 
 .jackpot .bg {
-  z-index: 5;
+  z-index: 2;
 }
 
 .jackpot .bg .coin-blur-01 {
@@ -193,13 +193,20 @@ export default {
 }
 
 .jackpot .fg {
-  z-index: 100;
+  z-index: 15;
 }
 
 .jackpot .fg .main {
   background: transparent url(/images/jackpot/super-golf-lady.webp) no-repeat 100%;
-  background-size: auto 415px;
-  background-position: right -80px top 50px;
+  background-size: auto 300px;
+  background-position: right 0px top 50px;
+}
+
+@media (min-width: 768px) {
+  .jackpot .fg .main {
+    background-size: auto 415px;
+    background-position: right -80px top 50px;
+  }
 }
 
 @media(min-width: 600px) {
