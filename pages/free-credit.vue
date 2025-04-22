@@ -137,7 +137,7 @@ const toggleAccordion = (index) => {
 const faqItems = [
   {
     question: 'เครดิตฟรี 50 ',
-    answer: 'PGSLOTTO50'
+    answer: 'รหัสคูปอง : PGSLOTTO50'
   },
   {
     question: 'เครดิตฟรีฝาก 100 รับ 50',

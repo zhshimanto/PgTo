@@ -9,19 +9,9 @@
       <div>
         <h2 class="title">
           TOURNAMENT <br>
-          ประจำเดือนมีนาคม
+          ประจำเดือน
         </h2>
-        <p class="subtext text-white">
-          ลำดับคะแนนทัวร์นาเมนท์ เดือน
-           มีนาคม 
-          แจก 500,000.  รับเงินสดเข้าบัญชี ถอนได้ทันที
-           ไม่มีเงื่อนไข 
-          อ่านรายละเอียด
-        </p>
-        <div class="due-date">
-          สิ้นสุดการแข่งขันในอีก
-          <strong class="value">12 วัน 23:33:04</strong>
-        </div>
+        
         <div class="score-board">
     <!-- Header -->
     <div class="header">
@@ -76,36 +66,36 @@ const getRandomAvatar = () => {
 }
 
 const scores = ref([
-  { rank: 1, avatar: getRandomAvatar(), name: 'banp***', reward: '200,000.-', points: 3794585 },
+  { rank: 1, avatar: getRandomAvatar(), name: 'pgto***', reward: '200,000.-', points: 3794585 },
   { rank: 2, avatar: getRandomAvatar(), name: 'boy0***', reward: '100,000.-', points: 2885087 },
-  { rank: 3, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 4, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 5, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 6, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 7, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 8, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 9, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 10, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 11, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 12, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 13, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 14, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 15, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 16, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 17, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 18, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 19, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 20, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 21, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 22, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 23, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 24, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 25, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 26, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 27, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 28, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 29, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
-  { rank: 30, avatar: getRandomAvatar(), name: 'akap***', reward: '50,000.-', points: 2526131 },
+  { rank: 3, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 4, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 5, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 6, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 7, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 8, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 9, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 10, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 11, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 12, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 13, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 14, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 15, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 16, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 17, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 18, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 19, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 20, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 21, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 22, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 23, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 24, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 25, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 26, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 27, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 28, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 29, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
+  { rank: 30, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
 ])
 
 const displayedScores = computed(() => {

@@ -37,7 +37,7 @@ gsap.registerPlugin(ScrollTrigger)
 onMounted(() => {
   // Footer animation
   gsap.from('footer', {
-    opacity: 0,
+    opacity: 1,
     y: 50,
     duration: 1,
     scrollTrigger: {
