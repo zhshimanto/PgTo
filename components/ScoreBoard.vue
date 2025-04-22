@@ -67,7 +67,7 @@ const getRandomAvatar = () => {
 
 const scores = ref([
   { rank: 1, avatar: getRandomAvatar(), name: 'pgto***', reward: '200,000.-', points: 3794585 },
-  { rank: 2, avatar: getRandomAvatar(), name: 'boy0***', reward: '100,000.-', points: 2885087 },
+  { rank: 2, avatar: getRandomAvatar(), name: 'pgto***', reward: '100,000.-', points: 2885087 },
   { rank: 3, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
   { rank: 4, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
   { rank: 5, avatar: getRandomAvatar(), name: 'pgto***', reward: '50,000.-', points: 2526131 },
