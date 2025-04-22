@@ -224,7 +224,7 @@ const toggleShowAll = () => {
   position: absolute;
   width: 145px;
   height: 165px;
-  top: 55px;
+  top: 0%;
   right: 0;
   background: transparent url('/images/Scoreboard/tournament-bg.webp') no-repeat 100% 0;
   background-size: contain;
