@@ -10,8 +10,8 @@
           <!-- Desktop Menu -->
           <nav class="hidden md:flex space-x-8">
             <NuxtLink to="/" class="text-white hover:text-btn-start transition-colors">หน้าหลัก</NuxtLink>
-            <NuxtLink to="/promotions" class="text-white hover:text-btn-start transition-colors">โปรโมชั่น</NuxtLink>
-            <NuxtLink to="/demo" class="text-white hover:text-btn-start transition-colors">ทดลองเล่น</NuxtLink>
+            <NuxtLink to="/โปรโมชั่น" class="text-white hover:text-btn-start transition-colors">โปรโมชั่น</NuxtLink>
+            <NuxtLink to="/ทดลองเล่น" class="text-white hover:text-btn-start transition-colors">ทดลองเล่น</NuxtLink>
             <NuxtLink to="/free-credit" class="text-white hover:text-btn-start transition-colors">เครดิตฟรี</NuxtLink>
             <NuxtLink to="/blog" class="text-white hover:text-btn-start transition-colors">แหล่งความรู้</NuxtLink>
             <NuxtLink to="/contact" class="text-white hover:text-btn-start transition-colors">ติดต่อ</NuxtLink>
@@ -68,8 +68,8 @@ import { ref } from 'vue'
 const isMenuOpen = ref(false)
 const menuItems = [
   { name: 'หน้าหลัก', path: '/' },
-  { name: 'โปรโมชั่น', path: '/promotions' },
-  { name: 'ทดลองเล่น', path: '/demo' },
+  { name: 'โปรโมชั่น', path: '/โปรโมชั่น' },
+  { name: 'ทดลองเล่น', path: '/ทดลองเล่น' },
   { name: 'เครดิตฟรี', path: '/free-credit' },
   { name: 'แหล่งความรู้', path: '/blog' },
   { name: 'ติดต่อ', path: '/contact' },
