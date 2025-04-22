@@ -1,5 +1,5 @@
 <template>
-  <a :id="id" :href="game.link" class="game-card" :class="{ active: isActive }">
+  <div :id="id" class="game-card" :class="{ active: isActive }" @click="$emit('click', game)">
     <div class="avatar" :class="{ active: isActive }">
       <div class="bg" :style="{ backgroundImage: `url(${game.bgImage})` }"></div>
       <div class="character" :style="{ backgroundImage: `url(${game.characterImage})` }"></div>
@@ -9,7 +9,7 @@
     <div class="title">
       {{ title || game.title }}
     </div>
-  </a>
+  </div>
 </template>
 
 <script>

@@ -1,5 +1,10 @@
 <template>
   <div class="game-grid">
+    <GamePopup
+      :is-open="!!selectedGame"
+      :game-url="selectedGame?.link"
+      @close="selectedGame = null"
+    />
     <GameCard
       v-for="game in games"
       :key="game.id"
@@ -9,21 +14,30 @@
       :title="title"
       @mouseenter="activeGameId = game.id"
       @mouseleave="activeGameId = null"
+      @click="handleGameClick(game)"
     />
   </div>
 </template>
 
 <script>
 import GameCard from './GameCard.vue'
+import GamePopup from './GamePopup.vue'
 
 export default {
   name: 'GameGrid',
   components: {
-    GameCard
+    GameCard,
+    GamePopup
+  },
+  methods: {
+    handleGameClick(game) {
+      this.selectedGame = game
+    }
   },
   data() {
     return {
       activeGameId: null,
+      selectedGame: null,
       games: [
         {
           id: 'game_1',
@@ -35,7 +49,7 @@ export default {
           graphicsLevel: 5,
           minBet: '1.00',
           hasFreeSpins: true,
-          link: '#'
+          link: 'https://m.pgsoft-games.com/87/index.html?l=th&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://pgslott.to/&_refer=m.pg-redirect.net&or=static.pgsoft-games.com&_hv=1f8e1d3b'
         },
         {
           id: 'game_2',
@@ -47,7 +61,7 @@ export default {
           graphicsLevel: 5,
           minBet: '1.00',
           hasFreeSpins: true,
-          link: '#'
+          link: 'https://m.pgsoft-games.com/74/index.html?l=th&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://pgslott.to/&_refer=m.pg-redirect.net&or=static.pgsoft-games.com&_hv=1f8e1d3b'
         },
         {
           id: 'game_3',
@@ -59,7 +73,7 @@ export default {
           graphicsLevel: 5,
           minBet: '1.00',
           hasFreeSpins: true,
-          link: '#'
+          link: 'https://m.pgsoft-games.com/89/index.html?l=th&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://pgslott.to/&_refer=m.pg-redirect.net&or=static.pgsoft-games.com&_hv=1f8e1d3b'
         },
         {
           id: 'game_4',
@@ -71,7 +85,7 @@ export default {
           graphicsLevel: 5,
           minBet: '1.00',
           hasFreeSpins: true,
-          link: '#'
+          link: 'https://m.pgsoft-games.com/65/index.html?l=th&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://pgslott.to/&_refer=m.pg-redirect.net&or=static.pgsoft-games.com&_hv=1f8e1d3b'
         },
         {
           id: 'game_5',
@@ -83,7 +97,7 @@ export default {
           graphicsLevel: 5,
           minBet: '1.00',
           hasFreeSpins: true,
-          link: '#'
+          link: 'https://m.pgsoft-games.com/106/index.html?l=th&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://pgslott.to/&_refer=m.pg-redirect.net&or=static.pgsoft-games.com&_hv=1f8e1d3b'
         },
         {
           id: 'game_6',
@@ -95,7 +109,7 @@ export default {
           graphicsLevel: 5,
           minBet: '1.00',
           hasFreeSpins: true,
-          link: '#'
+          link: 'https://m.pgsoft-games.com/135/index.html?l=th&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://pgslott.to/&_refer=m.pg-redirect.net&or=static.pgsoft-games.com&_hv=1f8e1d3b'
         },
         {
           id: 'game_7',
@@ -107,7 +121,7 @@ export default {
           graphicsLevel: 5,
           minBet: '1.00',
           hasFreeSpins: true,
-          link: '#'
+          link: 'https://m.pgsoft-games.com/71/index.html?l=th&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://pgslott.to/&_refer=m.pg-redirect.net&or=static.pgsoft-games.com&_hv=1f8e1d3b'
         },
         {
           id: 'game_8',
@@ -119,7 +133,7 @@ export default {
           graphicsLevel: 5,
           minBet: '1.00',
           hasFreeSpins: true,
-          link: '#'
+          link: 'https://m.pgsoft-games.com/110/index.html?l=th&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://pgslott.to/&_refer=m.pg-redirect.net&or=static.pgsoft-games.com&_hv=1f8e1d3b'
         },
         {
           id: 'game_9',
@@ -131,7 +145,7 @@ export default {
           graphicsLevel: 5,
           minBet: '1.00',
           hasFreeSpins: true,
-          link: '#'
+          link: 'https://m.pgsoft-games.com/98/index.html?l=th&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://pgslott.to/&_refer=m.pg-redirect.net&or=static.pgsoft-games.com&_hv=1f8e1d3b'
         },
         {
           id: 'game_10',
@@ -143,7 +157,7 @@ export default {
           graphicsLevel: 5,
           minBet: '1.00',
           hasFreeSpins: true,
-          link: '#'
+          link: 'https://m.pgsoft-games.com/1615454/index.html?l=th&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://pgslott.to/&_refer=m.pg-redirect.net&or=static.pgsoft-games.com&_hv=1f8e1d3b'
         },
         {
           id: 'game_11',
@@ -155,7 +169,7 @@ export default {
           graphicsLevel: 5,
           minBet: '1.00',
           hasFreeSpins: true,
-          link: '#'
+          link: 'https://m.pgsoft-games.com/1543462/index.html?l=th&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://pgslott.to/&_refer=m.pg-redirect.net&or=static.pgsoft-games.com&_hv=1f8e1d3b'
         },
         {
           id: 'game_12',
@@ -167,7 +181,7 @@ export default {
           graphicsLevel: 5,
           minBet: '1.00',
           hasFreeSpins: true,
-          link: '#'
+          link: 'https://m.pgsoft-games.com/1695365/index.html?l=th&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://pgslott.to/&_refer=m.pg-redirect.net&or=static.pgsoft-games.com&_hv=1f8e1d3b'
         },
         {
           id: 'game_13',
@@ -179,7 +193,7 @@ export default {
           graphicsLevel: 5,
           minBet: '1.00',
           hasFreeSpins: true,
-          link: '#'
+          link: 'https://m.pgsoft-games.com/117/index.html?l=th&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://pgslott.to/&_refer=m.pg-redirect.net&or=static.pgsoft-games.com&_hv=1f8e1d3b'
         },
         {
           id: 'game_14',
@@ -191,7 +205,7 @@ export default {
           graphicsLevel: 5,
           minBet: '1.00',
           hasFreeSpins: true,
-          link: '#'
+          link: 'https://m.pgsoft-games.com/104/index.html?l=th&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://pgslott.to/&__refer=m.pg-redirect.net&or=static.pgsoft-games.com&btt=2&__refer=m.pg-redirect.net&or=static.pgsoft-games.com'
         },
         {
           id: 'game_15',
@@ -203,7 +217,7 @@ export default {
           graphicsLevel: 5,
           minBet: '1.00',
           hasFreeSpins: true,
-          link: '#'
+          link: 'https://m.pgsoft-games.com/1580541/index.html?l=th&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://pgslott.to/&__refer=m.pg-redirect.net&or=static.pgsoft-games.com&btt=2&__refer=m.pg-redirect.net&or=static.pgsoft-games.com'
         },
         {
           id: 'game_16',
@@ -215,7 +229,7 @@ export default {
           graphicsLevel: 5,
           minBet: '1.00',
           hasFreeSpins: true,
-          link: '#'
+          link: 'https://m.pgsoft-games.com/75/index.html?l=th&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://pgslott.to/&_refer=m.pg-redirect.net&or=static.pgsoft-games.com&_hv=1f8e1d3b'
         },
         {
           id: 'game_17',
@@ -227,7 +241,7 @@ export default {
           graphicsLevel: 5,
           minBet: '1.00',
           hasFreeSpins: true,
-          link: '#'
+          link: 'https://m.pgsoft-games.com/130/index.html?l=th&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://pgslott.to/&_refer=m.pg-redirect.net&or=static.pgsoft-games.com&_hv=1f8e1d3b'
         },
         {
           id: 'game_18',
@@ -239,7 +253,7 @@ export default {
           graphicsLevel: 5,
           minBet: '1.00',
           hasFreeSpins: true,
-          link: '#'
+          link: 'https://m.pgsoft-games.com/92/index.html?l=th&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://pgslott.to/&_refer=m.pg-redirect.net&or=static.pgsoft-games.com&_hv=1f8e1d3b'
         },
         {
           id: 'game_19',
@@ -251,7 +265,7 @@ export default {
           graphicsLevel: 5,
           minBet: '1.00',
           hasFreeSpins: true,
-          link: '#'
+          link: 'https://m.pgsoft-games.com/1402846/index.html?l=th&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://pgslott.to/&_refer=m.pg-redirect.net&or=static.pgsoft-games.com&_hv=1f8e1d3b'
         },
         {
           id: 'game_20',
@@ -263,7 +277,7 @@ export default {
           graphicsLevel: 5,
           minBet: '1.00',
           hasFreeSpins: true,
-          link: '#'
+          link: 'https://m.pgsoft-games.com/126/index.html?l=th&ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://pgslott.to/&_refer=m.pg-redirect.net&or=static.pgsoft-games.com&_hv=1f8e1d3b'
         }
       ]
     }
