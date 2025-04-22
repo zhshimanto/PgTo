@@ -7,19 +7,20 @@
             <img src="/pgto.webp" alt="PG SLOT VEGAS Logo" class="w-48 h-auto mb-8">
           </div>
           <h1 class="text-3xl md:text-5xl font-bold mb-4 md:mb-6 bg-gradient-to-r from-[#eadb20] to-[#ffffff] bg-clip-text text-transparent leading-tight">
-            TOURNAMENT<br>
-            <span class="text-white">ประจำเดือนมีนาคม</span>
+            PG SLOT TO เว็บใหญ่แบรนด์แท้ไม่ผ่านเอเยนต์แตกง่ายอันดับ 1<br>
+            <span class="text-white"></span>
           </h1>
           <p class="text-base md:text-lg mb-6 md:mb-8 text-white px-4 md:px-0">
-            สล็อตออนไลน์ PG SLOT เว็บตรง จากเจ้าของลิขสิทธิ์แท้ สล็อตแตกง่าย ฝากถอนออโต้ มีโปรโมชั่นพิเศษที่มีเฉพาะในเว็บตรงเท่านั้น
+            PG SLOT TO เว็บสล็อตเว็บใหญ่พร้อมให้บริการเกมสล็อตออนไลน์ที่ได้รับความนิยมจากทั่วโลกมาไว้ที่นี่ที่เดียว PG แบรนด์แท้สีชมพูรวมเกมแจ็กพอตแตกบ่อยเล่นง่ายพร้อมรองรับการเข้าเล่นได้ทุกระบบซอฟต์แวร์ตลอด 24 ชั่วโมง<br>
+	เกมทุกประเภทตอบโจทย์ความเป็นสมัยใหม่เล่นได้เรื่อย ๆ ไม่มีเบื่อ ฝากถอนง่ายบนระบบออโต้ที่มีความปลอดภัยสูงสุดไม่ผ่านเอเยนต์จะเล่นได้เท่าไหร่ก็ถอนได้จริงไม่มีโกง PG TO
           </p>
           <div class="flex flex-col gap-4 justify-center">
-            <button class="btn-register">
+            <a class="btn-register text-center" href="https://playpgslot.to/">
               สมัครสมาชิก
-            </button>
-            <button class="btn-login">
+            </a>
+            <a class="btn-login text-center" href="https://playpgslot.to/">
               เข้าสู่ระบบ
-            </button>
+            </a>
           </div>
         </div>
         <div class="w-full md:w-1/2 mt-8 md:mt-0">

@@ -45,6 +45,7 @@
         <div class="bottom">{{ formattedJackpot }}</div>
       </div>
     </div>
+    
   </section>
 </template>
 
