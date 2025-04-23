@@ -8,7 +8,9 @@
         <p class="text-white max-w-2xl mx-auto mb-8">
             เครดิตฟรีคือสิทธิพิเศษที่ทางเว็บ PG TO ได้จัดทำขึ้นมาเพื่อให้ผู้ใช้บริการได้รับประโยชน์โดยตรง เลือกรับได้หลากหลายรูปแบบตามสไตล์การเล่นที่เหมาะกับตัวเอง ส่วนวิธีรับและถอนเครดิตฟรีใหม่ล่าสุดก็เป็นเรื่องที่ง่ายเพียงทำตามขั้นตอนที่ระบบแนะนำเท่านั้น
           </p>
-        
+          <div class="mx-auto max-w-2xl mb-8">
+        <img src="/images/games/fortune-tiger.webp" alt="Fortune Tiger">
+      </div>
         <div class="max-w-3xl mx-auto bg-[#ff80b7]/80 backdrop-blur-sm rounded-xl p-6 md:p-8 shadow-xl border border-white/10 mb-12">
           
 
