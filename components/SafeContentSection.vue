@@ -16,7 +16,11 @@
       <p class="text-white mb-4">ไม่ต้องกลัวว่าเล่นไม่เป็นหรือไม่มีประสบการณ์เพราะเราคือเว็บสล็อตแบรนด์แท้ที่พร้อมเปิดให้ทดลองเล่นได้ฟรีตลอด 24 ชั่วโมง ไม่จำเป็นต้องฝากหรือสมัครเข้ามาก่อนแค่คลิกทดลองก็เข้าเล่นได้เลยฟรี ๆ ไม่มีค่าใช้จ่าย </p>
       <p class="text-white mb-4">สนใจเกมไหนเป็นพิเศษชอบเกมเก่าหรือเกมอัปเดตใหม่ล่าสุดก็พร้อมเปิดให้เล่นอย่างครบวงจร การันตีได้เลยว่าเมื่อเข้าไปแล้วจะได้พบเกมสนุกกราฟิกสวยน่าเล่นทุกเกมไม่มีพลาดความมันในทุกระดับอย่างแน่นอน </p>
       <p class="text-white mb-4">แต่หลังจากที่เล่นไปสักระยะนึงแล้วถ้าเกิดเครดิตให้ทดลองหมดขึ้นมาก็ไม่ต้องตกใจ เพียงแค่รีเฟรชหรือกดออกและเข้าใหม่จากนั้นเครดิตก็จะกลับมาเล่นได้เหมือนเดิม </p>
-
+      <div class="button-credit">
+            <a class="btn-login text-center" href="https://pgslott.to/free-credit">
+              รับเครดิตฟรี
+            </a>
+          </div>
       <h2 class="text-2xl font-bold mt-4 mb-4 text-white">รวมเกมทุกรูปแบบสุดทันสมัย</h2>
       <p class="text-white mb-4">ผลิตภัณฑ์เกมสล็อตทุกรูปแบบที่เปิดให้บริการถูกอัดแน่นไปด้วยความเป็นสมัยใหม่ด้วยเทคโนโลยีโมชันกราฟิกหรือภาพเคลื่อนไหว 3 มิติที่เสมือนจริง ให้อารมณ์การเดิมพันที่สุดท้าทายและลุ้นได้สนุกทุกจังหวะไม่มีพลาดแม้แต่วินาทีเดียว</p>
       <p class="text-white mb-4">เสียงดนตรีประกอบถูกออกแบบได้อย่างสร้างสรรค์สนุกและไม่ซ้ำหน้ากันแม้แต่เกมเดียว ที่สำคัญธีมในแต่ละเกมให้ความรู้สึกเหมือนได้เข้าไปอยู่ในสถานที่นั้น ๆ ตามที่เกมออกแบบมา ดังนั้นจึงไม่ใช่เรื่องแปลกที่ทำไมผู้เล่นหลาย ๆ คนถึงนิยมให้ PG มาเป็นอันดับ 1</p>
@@ -98,6 +102,58 @@
 </template>
 
 <style scoped>
+.button-credit {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.btn-register,
+.btn-login {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 280px;
+  margin: 0 auto;
+  transition: background 0.5s ease-out;
+  transform-origin: center;
+  will-change: transform, box-shadow;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  margin:auto;
+}
+@media (min-width: 768px) {
+  .btn-register,
+  .btn-login {
+    margin-left: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.btn-register {
+  background: linear-gradient(to bottom, #ffa223, rgb(255, 142, 35));
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-register:active {
+  transform: translateY(2px);
+  box-shadow: none;
+}
+
+.btn-login {
+  background: linear-gradient(to bottom, #5c7fff, #486bff);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-login:active {
+  transform: translateY(2px);
+  box-shadow: none;
+}
 .safe-content-container {
   max-width: 620px;
 }

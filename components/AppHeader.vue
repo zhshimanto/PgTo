@@ -73,7 +73,7 @@ const menuItems = [
   { name: 'เครดิตฟรี', path: '/free-credit' },
   { name: 'แหล่งความรู้', path: '/blog' },
   { name: 'ติดต่อ', path: '/contact' },
-  { name: 'เข้าสู่ระบบ', path: '/login' },
+  { name: 'เข้าสู่ระบบ', path: 'https://playpgslot.to/' },
 ]
 
 const toggleMenu = () => {

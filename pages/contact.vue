@@ -17,17 +17,17 @@
             <a href="https://line.me/R/ti/p/@148amrcd" 
                target="_blank" 
                class="bg-[#00B900] hover:bg-[#00A000] text-white text-lg font-medium px-8 py-4 rounded-lg transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 flex-1 text-center min-w-[200px]">
-               LINE 1
+               LINE (หลัก)
             </a>
             <a href="https://line.me/R/ti/p/@541aiypv" 
                target="_blank" 
                class="bg-[#00B900] hover:bg-[#00A000] text-white text-lg font-medium px-8 py-4 rounded-lg transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 flex-1 text-center min-w-[200px]">
-               LINE 2
+               LINE (เครดิตฟรี)
             </a>
             <a href="https://line.me/R/ti/p/@431tvrgg" 
                target="_blank" 
                class="bg-[#00B900] hover:bg-[#00A000] text-white text-lg font-medium px-8 py-4 rounded-lg transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 flex-1 text-center min-w-[200px]">
-               LINE 3
+               LINE (สำรอง)
             </a>
           </div>
           <div class="flex justify-center items-center space-x-6 mt-8">
