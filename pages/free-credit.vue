@@ -147,7 +147,7 @@ const faqItems = [
   },
   {
     question: 'เครดิตฟรีสมาชิกใหม่ 300 รับ 100',
-    answer: 'รหัสคูปอง : PGSLOTTONEW100'
+    answer: 'รหัสคูปอง : PGSLOTTONEWS100'
   },
   {
     question: 'รับเพชร Roadmap Google',
