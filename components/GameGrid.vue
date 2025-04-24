@@ -81,6 +81,7 @@ export default {
           bgImage: '/images/games/4-Mahjong-Ways/Mahjong-Ways-bg.webp',
           characterImage: '/images/games/4-Mahjong-Ways/Mahjong-Ways-character.webp',
           logoImage: '/images/games/4-Mahjong-Ways/Mahjong-Ways-logo.webp',
+          labelImage: '/images/games/3-Lucky-Neko/label_en.webp',
           graphicsLevel: 5,
           minBet: '1.00',
           hasFreeSpins: true,
