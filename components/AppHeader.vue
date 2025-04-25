@@ -44,7 +44,7 @@
       <div class="pt-8 px-4">
         <!-- Mobile Menu Logo -->
         <div class="flex justify-center mb-12">
-          <img src="/pgto-logo.webp" alt="PG SLOT VEGAS Logo" class="w-48 h-auto">
+          <img src="/pgto-logo.webp" alt="PG SLOT TO" class="w-48 h-auto">
         </div>
         <div class="flex flex-col space-y-6">
           <NuxtLink 
