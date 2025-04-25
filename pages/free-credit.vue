@@ -138,8 +138,8 @@ const toggleAccordion = (index) => {
 
 const faqItems = [
   {
-    question: 'เครดิตฟรี 50 ',
-    answer: 'รหัสคูปอง : PGSLOTTO50'
+    question: 'เครดิตฟรี 50 ทำ 600 ถอนได้ 50',
+    answer: 'รหัสคูปอง : PGSLOTTOFREE50'
   },
   {
     question: 'เครดิตฟรีฝาก 100 รับ 50',
