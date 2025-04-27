@@ -51,7 +51,23 @@ export default defineNuxtConfig({
     }
   },
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/sitemap', '@nuxtjs/robots'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    ['@nuxtjs/sitemap', {
+      hostname: 'https://pgslott.to',
+      gzip: true,
+      exclude: [
+        '/404',
+        '/thank-you'
+      ],
+      defaults: {
+        changefreq: 'daily',
+        priority: 0.8,
+        lastmod: new Date().toISOString()
+      }
+    }],
+    '@nuxtjs/robots'
+  ],
   nitro: {
     prerender: {
       routes: ['/robots.txt']
