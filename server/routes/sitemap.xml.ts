@@ -1,8 +1,10 @@
 import { defineEventHandler } from 'h3'
 
-export default defineEventHandler((event) => {
+export default defineEventHandler(async (event) => {
   const baseUrl = 'https://pgslott.to'
-  const pages = [
+  
+  // Static pages
+  const staticPages = [
     '',
     '/demo',
     '/free-credit',
@@ -10,9 +12,15 @@ export default defineEventHandler((event) => {
     '/promotion'
   ]
 
+  // Get blog posts (you'll need to implement this based on your data source)
+  // This is a placeholder - replace with your actual blog post fetching logic
+  const blogPosts: string[] = [] // Add your blog post URLs here
+  
+  const allPages = [...staticPages, ...blogPosts]
+
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  ${pages.map(page => `
+  ${allPages.map(page => `
     <url>
       <loc>${baseUrl}${page}</loc>
       <lastmod>${new Date().toISOString()}</lastmod>
