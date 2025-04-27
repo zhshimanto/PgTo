@@ -51,7 +51,7 @@ export default defineNuxtConfig({
     }
   },
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/seo'],
+  modules: ['@nuxtjs/tailwindcss'],
   css: ['~/assets/css/main.css'],
   pages: true,
   components: {
