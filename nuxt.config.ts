@@ -3,6 +3,8 @@ export default defineNuxtConfig({
   compatibilityDate: '2023-11-01',
   app: {
     head: {
+      titleTemplate: '%s',
+      title: 'PG SLOT TO เว็บลิขสิทธิ์แท้โบนัสแจ็กพอตแตกง่ายที่สุด 2025',
       meta: [
         {
           name: 'google-site-verification',
@@ -29,14 +31,27 @@ export default defineNuxtConfig({
             })(window,document,'script','dataLayer','GTM-TXR8H6B9');
           `,
           type: 'text/javascript'
+        },
+        {
+          type: 'application/ld+json',
+          innerHTML: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebSite',
+            name: 'PG Vegas',
+            url: 'https://pgslott.to',
+            description: 'บทความสล็อตมัดรวมข้อมูลความรู้พร้อมเทคนิคทำเงินดี ๆ และอัปเดตเกมใหม่ล่าสุดที่นักเดิมพันทุกระดับไม่ควรพลาด บทความสล็อตออนไลน์ทำไมถึงมีความสำคัญที่จำเป็นต้องอ่านคลิก',
+            potentialAction: {
+              '@type': 'SearchAction',
+              'target': 'https://pgslott.to/search?q={search_term_string}',
+              'query-input': 'required name=search_term_string'
+            }
+          })
         }
       ]
     }
   },
   devtools: { enabled: true },
-  modules: [
-    '@nuxtjs/tailwindcss'
-  ],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/seo'],
   css: ['~/assets/css/main.css'],
   pages: true,
   components: {
