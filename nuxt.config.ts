@@ -53,28 +53,24 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/sitemap',
     '@nuxtjs/robots'
   ],
-  nitro: {
-    prerender: {
-      routes: ['/robots.txt']
-    }
-  },
   runtimeConfig: {
     public: {
       siteUrl: 'https://pgslott.to'
     }
   },
-  site: {
-    url: 'https://pgslott.to'
+  nitro: {
+    prerender: {
+      routes: ['/robots.txt']
+    }
+  },
+  robots: {
+    debug: true,
+    sitemap: 'https://pgslott.to/sitemap.xml',
+    allow: ['/']
   },
   css: ['~/assets/css/main.css'],
-  pages: true,
-  components: {
-    global: true,
-    dirs: ['~/components']
-  },
   imports: {
     autoImport: true
   }
