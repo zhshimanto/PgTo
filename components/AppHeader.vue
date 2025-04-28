@@ -4,7 +4,7 @@
       <div class="container mx-auto px-4 !py-6">
         <div class="flex justify-between items-center">
           <NuxtLink to="/" class="text-2xl font-bold text-white">
-            <img src="/pgto-logo.webp" alt="PG SLOT VEGAS Logo" class="w-48 h-auto">
+            <img src="/pgto-logo.webp" alt="PG SLOT TO Logo" class="w-48 h-auto">
           </NuxtLink>
           
           <!-- Desktop Menu -->

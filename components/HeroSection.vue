@@ -4,7 +4,7 @@
       <div class="flex flex-col md:flex-row items-center justify-between gap-8">
         <div class="w-full md:w-1/2 text-white text-center md:text-left">
           <div class="flex justify-center md:justify-start w-full">
-            <img src="/pgto.webp" alt="PG SLOT VEGAS Logo" class="w-48 h-auto mb-8">
+            <img src="/pgto.webp" alt="PG SLOT TO Logo" class="w-48 h-auto mb-8">
           </div>
           <h1 class="text-3xl md:text-5xl font-bold mb-4 md:mb-6 bg-gradient-to-r from-[#eadb20] to-[#ffffff] bg-clip-text text-transparent leading-tight">
             PG SLOT TO เว็บใหญ่แบรนด์แท้ไม่ผ่านเอเยนต์แตกง่ายอันดับ 1<br>
