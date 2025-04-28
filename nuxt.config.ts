@@ -37,7 +37,7 @@ export default defineNuxtConfig({
           innerHTML: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
-            name: 'PG Vegas',
+            name: 'PG SLOT TO',
             url: 'https://pgslott.to',
             description: 'บทความสล็อตมัดรวมข้อมูลความรู้พร้อมเทคนิคทำเงินดี ๆ และอัปเดตเกมใหม่ล่าสุดที่นักเดิมพันทุกระดับไม่ควรพลาด บทความสล็อตออนไลน์ทำไมถึงมีความสำคัญที่จำเป็นต้องอ่านคลิก',
             potentialAction: {
