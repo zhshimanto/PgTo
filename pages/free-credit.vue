@@ -138,6 +138,18 @@ const toggleAccordion = (index) => {
 
 const faqItems = [
   {
+    question: 'เครดิตฟรี 50 ทำ 600 ถอนได้ 50',
+    answer: 'รหัสคูปอง : PGSLOTTOFREE50'
+  },
+  {
+    question: 'เครดิตฟรีฝาก 100 รับ 50',
+    answer: 'รหัสคูปอง : QGQ5V2XJT6INNBS1'
+  },
+  {
+    question: 'เครดิตฟรีสมาชิกใหม่ 300 รับ 100',
+    answer: 'รหัสคูปอง : PGSLOTTONEWS100'
+  },
+  {
     question: 'ฝากครบ 155 รับ 55 ทำยอด 5 เท่าถอนได้ 55',
     answer: 'รหัสคูปอง : RSLAV1QJ5XHTZB72'
   },
