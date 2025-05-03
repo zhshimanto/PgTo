@@ -138,16 +138,16 @@ const toggleAccordion = (index) => {
 
 const faqItems = [
   {
-    question: 'เครดิตฟรี 50 ทำ 600 ถอนได้ 50',
-    answer: 'รหัสคูปอง : PGSLOTTOFREE50'
+    question: 'ฝากครบ 155 รับ 55 ทำยอด 5 เท่าถอนได้ 55',
+    answer: 'รหัสคูปอง : RSLAV1QJ5XHTZB72'
   },
   {
-    question: 'เครดิตฟรีฝาก 100 รับ 50',
-    answer: 'รหัสคูปอง : QGQ5V2XJT6INNBS1'
+    question: 'ฝากครบ 555 รับ 155 ทำยอด 4 เท่าถอนได้ 155',
+    answer: 'รหัสคูปอง : 521IVU4LRY1GGFOQ'
   },
   {
-    question: 'เครดิตฟรีสมาชิกใหม่ 300 รับ 100',
-    answer: 'รหัสคูปอง : PGSLOTTONEWS100'
+    question: 'ฝากครบ 1,555 รับ 255 ทำยอด 3 เท่า ถอนได้ 255',
+    answer: 'รหัสคูปอง : VBD2D8V4OJF19SU6'
   },
   {
     question: 'รับเพชร Roadmap Google',
