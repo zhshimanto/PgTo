@@ -150,16 +150,16 @@ const faqItems = [
     answer: 'รหัสคูปอง : PGSLOTTONEWS100'
   },
   {
-    question: 'ฝากครบ 155 รับ 55 ทำยอด 5 เท่าถอนได้ 55',
-    answer: 'รหัสคูปอง : DQ76TYFICJ5Y4IL2'
+    question: '100 รับ 50 ทำ 500 ถอน 50',
+    answer: 'รหัสคูปอง : BHE2WJPAVRC6ZVRP'
   },
   {
-    question: 'ฝากครบ 555 รับ 155 ทำยอด 4 เท่าถอนได้ 155',
-    answer: 'รหัสคูปอง : N3DT4RXRVXGOQ628'
+    question: '500 รับ 100 ทำ 800 ถอน 100',
+    answer: 'รหัสคูปอง : ASVPF66PXIA8XC6I'
   },
   {
-    question: 'ฝากครบ 1,555 รับ 255 ทำยอด 3 เท่า ถอนได้ 255',
-    answer: 'รหัสคูปอง : 4HMQCR4A8FU33HLD'
+    question: '1,000 รับ 300 ทำ 1,000 ถอน 300',
+    answer: 'รหัสคูปอง : 8CTDLPZHAUNNCMX9'
   },
   {
     question: 'รับเพชร Roadmap Google',
