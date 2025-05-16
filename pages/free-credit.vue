@@ -151,15 +151,15 @@ const faqItems = [
   },
   {
     question: '100 รับ 50 ทำ 500 ถอน 50',
-    answer: 'รหัสคูปอง : BHE2WJPAVRC6ZVRP'
+    answer: 'รหัสคูปอง : 2TGCEBAOLA9MOVUL'
   },
   {
     question: '500 รับ 100 ทำ 800 ถอน 100',
-    answer: 'รหัสคูปอง : ASVPF66PXIA8XC6I'
+    answer: 'รหัสคูปอง : 8NZQOCV62ULS2V9R'
   },
   {
     question: '1,000 รับ 300 ทำ 1,000 ถอน 300',
-    answer: 'รหัสคูปอง : 8CTDLPZHAUNNCMX9'
+    answer: 'รหัสคูปอง : HKWM7ZHYZX9LQCS8'
   },
   {
     question: 'รับเพชร Roadmap Google',
