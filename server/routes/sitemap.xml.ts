@@ -12,9 +12,9 @@ export default defineEventHandler(async (event) => {
     '/promotion'
   ]
 
-  // Get blog posts (you'll need to implement this based on your data source)
-  // This is a placeholder - replace with your actual blog post fetching logic
-  const blogPosts: string[] = [] // Add your blog post URLs here
+  // Import and get blog posts from the data source
+  const blogPostsData = await import('../../data/blog-posts.json')
+  const blogPosts: string[] = blogPostsData.posts.map(post => `/blog/${post.slug}`)
   
   const allPages = [...staticPages, ...blogPosts]
 

@@ -9,7 +9,7 @@
           <span>•</span>
           <span>{{ formatDate(post.date) }}</span>
         </div>
-        <img :src="post.image" :alt="post.title" class="w-full h-[400px] object-cover rounded-lg mb-8">
+        <div class="max-w-4xl mx-auto mb-8"><img :src="post.image" :alt="post.title" class="w-full rounded-lg"></div>
         <div class="prose prose-invert max-w-none">
           <div class="text-lg leading-relaxed blog-content" v-html="post.content"></div>
         </div>
