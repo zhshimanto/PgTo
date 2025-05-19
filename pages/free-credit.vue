@@ -12,16 +12,16 @@
         <img src="/images/games/fortune-tiger.webp" alt="Fortune Tiger">
       </div>
         <div class="max-w-3xl mx-auto bg-[#ff80b7]/80 backdrop-blur-sm rounded-xl p-6 md:p-8 shadow-xl border border-white/10 mb-12">
-          
+
 
           <div class="space-y-4">
             <div v-for="(item, index) in faqItems" :key="index" class="border border-white/20 rounded-lg overflow-hidden">
-              <button 
+              <button
                 @click="toggleAccordion(index)"
                 class="w-full px-6 py-4 flex justify-between items-center text-white hover:bg-white/10 transition-colors"
               >
                 <span class="text-lg font-medium">{{ item.question }}</span>
-                <svg 
+                <svg
                   class="w-6 h-6 transition-transform duration-300"
                   :class="{ 'rotate-180': activeIndex === index }"
                   viewBox="0 0 24 24"
@@ -31,8 +31,8 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
-              
-              <div 
+
+              <div
                 v-show="activeIndex === index"
                 class="px-6 py-4 bg-black/20"
               >
@@ -50,7 +50,7 @@
             <li>คลิกเข้าไปที่หน้าโปรโมชั่น</li>
             <li>จากนั้นจะมีโปรให้เลือกรับ 17 รูปแบบ</li>
             <li>กดเลือกโปรที่ชอบและทำตามขั้นตอนที่ระบบแนะนำ</li>
-          </ul>     
+          </ul>
 
           <h2 class="text-2xl md:text-3xl font-bold mb-8 max-w-2xl mx-auto text-white">เงื่อนไขการขอรับเครดิตฟรี</h2>
 
@@ -66,7 +66,7 @@
 
            <h3 class="text-2xl md:text-3xl font-bold mb-8  max-w-2xl mx-auto text-white">1. เพิ่มโอกาสอยู่ในเกมได้นานขึ้น</h3>
 
-          <p class="text-white max-w-2xl mx-auto mb-8">โบนัสที่ได้รับมาจากโปรโมชันถึงแม้ว่าจะไม่ได้เยอะอะไรมากมายแต่ข้อดีหลัก ๆ ก็คือทำให้เราอยู่ในเกมได้นานขึ้น เหตุผลก็เพราะมีโบนัสฟรีเพิ่มเข้าไปบวกกับเงินเดิมพันหลักที่มีอยู่ 
+          <p class="text-white max-w-2xl mx-auto mb-8">โบนัสที่ได้รับมาจากโปรโมชันถึงแม้ว่าจะไม่ได้เยอะอะไรมากมายแต่ข้อดีหลัก ๆ ก็คือทำให้เราอยู่ในเกมได้นานขึ้น เหตุผลก็เพราะมีโบนัสฟรีเพิ่มเข้าไปบวกกับเงินเดิมพันหลักที่มีอยู่
 เพราะฉะนั้นนี่จึงเป็นโอกาสสำคัญที่ทำให้ศึกษาเกมในแต่ละประเภทได้นานและเพิ่มโอกาสในการสร้างเงินรางวัลได้มากขึ้นกว่าเดิม </p>
 
           <h3 class="text-2xl md:text-3xl font-bold mb-8  max-w-2xl mx-auto text-white">2. ลดความเสี่ยงเสียเงินทุนหลัก</h3>
