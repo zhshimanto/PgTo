@@ -2,7 +2,7 @@
   <div class="pt-[72px] flex-grow">
     <section v-if="post" class="px-5 md:px-0 py-12 mb-12">
       <div class="mx-auto max-w-4xl">
-        
+
         <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">{{ post.title }}</h1>
         <div class="flex items-center gap-4 text-white/80 mb-8">
           <span>{{ post.author }}</span>
@@ -51,6 +51,8 @@ if (!post.value) {
 
 // SEO Configuration
 useHead(() => ({
+htmlAttrs: {
+    lang: 'th'},
   title: post.value.metaTitle,
   meta: [
     { name: 'description', content: post.value.metaDescription },

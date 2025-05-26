@@ -101,6 +101,8 @@ definePageMeta({
 import GameGrid from '~/components/GameGrid.vue'
 
 useHead({
+htmlAttrs: {
+    lang: 'th'},
   title: 'PG SLOT TO เว็บลิขสิทธิ์แท้โบนัสแจ็กพอตแตกง่ายที่สุด 2025',
   meta: [
     { name: 'description', content: 'PGSLOT.TO เว็บใหม่มาแรงที่สุดพร้อมให้บริการเกมลิขสิทธิ์แท้ส่งตรงจาก POCKET GAMES SOFT พีจีสล็อตสีชมพูแจ็กพอตแตกบ่อยฝากถอนไวจ่ายจริงผ่านระบบ API แท้ไม่ผ่านเอเยนต์' },

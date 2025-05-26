@@ -2,20 +2,20 @@ import { defineEventHandler } from 'h3'
 
 export default defineEventHandler(async (event) => {
   const baseUrl = 'https://pgslott.to'
-  
+
   // Static pages
   const staticPages = [
     '',
     '/demo',
     '/free-credit',
     '/blog',
-    '/promotion'
+    '/promotions'
   ]
 
   // Import and get blog posts from the data source
   const blogPostsData = await import('../../data/blog-posts.json')
   const blogPosts: string[] = blogPostsData.posts.map(post => `/blog/${post.slug}`)
-  
+
   const allPages = [...staticPages, ...blogPosts]
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

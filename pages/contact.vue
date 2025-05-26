@@ -5,27 +5,27 @@
         <h1 class="text-2xl md:text-3xl font-bold mb-8 text-center text-white">
           ติดต่อเรามัดรวมช่องทางติดต่อ PG โดยตรงที่เร็วที่สุด
         </h1>
-        
+
         <div class="max-w-3xl mx-auto bg-[#ff80b7]/80 backdrop-blur-sm rounded-xl p-6 md:p-8 shadow-xl border border-white/10 mb-8">
           <p class="text-white/90 text-lg md:text-xl text-center mb-8 leading-relaxed">
             ถ้าต้องการให้ช่วยเหลือหรือแก้ปัญหาต่าง ๆ ที่พบสามารถติดต่อเราได้เลยโดยตรงตามช่องทางที่ให้ไว้ ไม่ว่าจะเป็นปัญหาการฝากถอนเครดิต, ลืมรหัสผ่าน, เข้าเกมไม่ได้ หรืออยากพูดคุยในกลุ่มเล่นสล็อตว่าเกมไหนน่าเล่นเราก็พร้อมมีกลุ่มไลน์สล็อต pg ให้พูดคุยกันตลอด 24 ชั่วโมง
           </p>
 
           <h2 class="text-2xl md:text-2xl font-bold mb-8  max-w-2xl mx-auto text-center text-white">ช่องทางติดต่อเรา PG TO</h2>
-          
+
           <div class="flex flex-col md:flex-row justify-center items-center gap-4 w-full">
-            <a href="https://line.me/R/ti/p/@148amrcd" 
-               target="_blank" 
+            <a href="https://line.me/R/ti/p/@148amrcd"
+               target="_blank"
                class="bg-[#00B900] hover:bg-[#00A000] text-white text-lg font-medium px-8 py-4 rounded-lg transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 flex-1 text-center min-w-[200px]">
                LINE (หลัก)
             </a>
-            <a href="https://line.me/R/ti/p/@541aiypv" 
-               target="_blank" 
+            <a href="https://line.me/R/ti/p/@541aiypv"
+               target="_blank"
                class="bg-[#00B900] hover:bg-[#00A000] text-white text-lg font-medium px-8 py-4 rounded-lg transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 flex-1 text-center min-w-[200px]">
                LINE (เครดิตฟรี)
             </a>
-            <a href="https://line.me/R/ti/p/@431tvrgg" 
-               target="_blank" 
+            <a href="https://line.me/R/ti/p/@431tvrgg"
+               target="_blank"
                class="bg-[#00B900] hover:bg-[#00A000] text-white text-lg font-medium px-8 py-4 rounded-lg transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 flex-1 text-center min-w-[200px]">
                LINE (สำรอง)
             </a>
@@ -63,7 +63,7 @@
         </p>
       </div>
       <div class="mx-auto max-w-6xl">
-        
+
       </div>
 
     </section>
@@ -72,6 +72,8 @@
 
 <script setup>
 useHead({
+htmlAttrs: {
+    lang: 'th'},
   title: 'ติดต่อเรารวมช่องทางติดต่อเว็บตรง PGSLOT.TO',
   meta: [
     { name: 'description', content: 'ติดต่อเราได้สะดวกลัดสั้นตรงและตอบโจทย์ทุกปัญหาคาใจได้ตลอด 24 ชั่วโมง เราพร้อมมีแอดมินชำนาญการพร้อมแก้ปัญหาทุกรูปแบบติดต่อ PG Slot โดยตรงกับเราได้เลยตอนนี้' },
