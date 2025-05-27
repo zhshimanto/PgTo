@@ -155,15 +155,15 @@ const faqItems = [
   },
   {
     question: 'แจกคูปองสุดคุ้มทั้งสัปดาห์ ฝาก 150 รับ 64',
-    answer: 'โค้ด : AJ8EXSUETGJ9O2C6'
+    answer: 'โค้ด : Q35JNO93COP2N7P5'
   },
   {
     question: 'แจกคูปองสุดคุ้มทั้งสัปดาห์ ฝาก 300 รับ 144',
-    answer: 'โค้ด : VULDPWU22QCHXEHE'
+    answer: 'โค้ด : WAK5ZCLZJDE0TNZ5'
   },
   {
     question: 'แจกคูปองสุดคุ้มทั้งสัปดาห์ ฝาก 1000 รับ 444',
-    answer: 'โค้ด : FDSTBQOA74RA8W3A'
+    answer: 'โค้ด : J2ALXHRZG3JTXS48'
   },
   {
     question: 'รับเพชร Roadmap Google',
