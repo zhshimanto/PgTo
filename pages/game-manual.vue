@@ -15,7 +15,7 @@
               <p class="text-white max-w-2xl mx-auto">เข้าสู่ทางเข้าหลักของเว็บ pgslott.to จากนั้นกดปุ่มสมัครสมาชิกจากแถบสีเหลือง</p>
               <h3 class="text-xl max-w-2xl mx-auto font-semibold mb-4 text-white">ขั้นตอนที่ 2</h3>
               <div class="mx-auto max-w-2xl mb-8">
-                 <img src="/images/manual/how-to-register-with-pgslott-to-Step-2.png" alt="ขั้นตอนที่ 2 การสมัครสมาชิก" class="rounded-lg shadow-lg mb-4 w-full">
+                 <img src="/images/manual/how-to-register-with-pgslott-to-step-2.png" alt="ขั้นตอนที่ 2 การสมัครสมาชิก" class="rounded-lg shadow-lg mb-4 w-full">
               </div>
               <p class="text-white max-w-2xl mx-auto">กดปุ่ม “สมัครสมาชิก” จากปุ่มด้านขวาบนของหน้าจออีกครั้ง จากนั้นหน้าต่างจะทำการเปลี่ยนไปสู่หน้าถัดไป</p>
               <h3 class="text-xl max-w-2xl mx-auto font-semibold mb-4 text-white">ขั้นตอนที่ 3</h3>
