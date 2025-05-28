@@ -1,7 +1,7 @@
 {
   "name": "pg-to",
   "private": true,
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
