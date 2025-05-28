@@ -19,8 +19,8 @@
         <div class="flex flex-wrap justify-center gap-8 text-sm">
           <NuxtLink to="/game-manual" class="hover:text-[#fbd95d] transition-colors">Game Manual</NuxtLink>
           <NuxtLink to="/responsible-gaming" class="hover:text-[#fbd95d] transition-colors">Responsible Gaming</NuxtLink>
-          <NuxtLink to="/privacy-policy" class="hover:text-[#fbd95d] transition-colors">Privacy Policy</NuxtLink>
           <NuxtLink to="/terms-and-conditions" class="hover:text-[#fbd95d] transition-colors">Terms & Conditions</NuxtLink>
+          <NuxtLink to="/privacy-policy" class="hover:text-[#fbd95d] transition-colors">Privacy Policy</NuxtLink>
         </div>
       </div>
     </div>
