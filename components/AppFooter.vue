@@ -17,9 +17,10 @@
       <!-- Footer Links -->
       <div class="border-t border-white/10 pt-6">
         <div class="flex flex-wrap justify-center gap-8 text-sm">
-          <NuxtLink to="/terms" class="hover:text-[#fbd95d] transition-colors">Terms & Conditions</NuxtLink>
-          <NuxtLink to="/privacy" class="hover:text-[#fbd95d] transition-colors">Privacy Policy</NuxtLink>
+          <NuxtLink to="/game-manual" class="hover:text-[#fbd95d] transition-colors">Game Manual</NuxtLink>
           <NuxtLink to="/responsible-gaming" class="hover:text-[#fbd95d] transition-colors">Responsible Gaming</NuxtLink>
+          <NuxtLink to="/privacy-policy" class="hover:text-[#fbd95d] transition-colors">Privacy Policy</NuxtLink>
+          <NuxtLink to="/terms-and-conditions" class="hover:text-[#fbd95d] transition-colors">Terms & Conditions</NuxtLink>
         </div>
       </div>
     </div>
