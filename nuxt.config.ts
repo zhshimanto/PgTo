@@ -9,6 +9,17 @@ export default defineNuxtConfig({
         {
           name: 'google-site-verification',
           content: 'Tc61i_bmez5sVQDwU43aWJVrFLdjjXhobuQuV6rNwX8'
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'https://pgslott.to'
+        }
+      ],
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://pgslott.to'
         }
       ],
       noscript: [
