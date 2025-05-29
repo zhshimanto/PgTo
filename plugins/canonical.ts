@@ -1,15 +1,16 @@
-import { defineNuxtPlugin, useRuntimeConfig } from '#app'
+import { defineNuxtPlugin, useRuntimeConfig, useRoute } from '#app'
 
 export default defineNuxtPlugin({
   name: 'canonical',
   setup(nuxtApp) {
     const config = useRuntimeConfig()
+    const route = useRoute()
     const baseUrl = config.public.siteUrl
 
     nuxtApp.hook('app:mounted', () => {
       const updateCanonical = () => {
-        const path = window.location.pathname
-        const canonicalUrl = `${baseUrl}${path}`
+        const path = route.path
+        const canonicalUrl = `${baseUrl}${path === '/' ? '' : path}`
         
         // Update canonical link
         let canonicalLink = document.querySelector('link[rel="canonical"]')
