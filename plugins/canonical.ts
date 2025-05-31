@@ -10,7 +10,7 @@ export default defineNuxtPlugin({
     nuxtApp.hook('app:mounted', () => {
       const updateCanonical = () => {
         const path = route.path
-        const canonicalUrl = `${baseUrl}${path === '/' ? '' : path}`
+        const canonicalUrl = `${baseUrl}${path === '/' ? '' : path}`.replace(/\/$/, '')
         
         // Update canonical link
         let canonicalLink = document.querySelector('link[rel="canonical"]')
