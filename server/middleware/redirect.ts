@@ -1,7 +1,6 @@
-import { defineEventHandler, getRequestURL, sendRedirect, getHeader, useRuntimeConfig } from 'h3'
+import { defineEventHandler, getRequestURL, sendRedirect, getHeader } from 'h3'
 
 export default defineEventHandler(async (event) => {
-  const config = useRuntimeConfig()
   const url = getRequestURL(event)
   const xForwardedProto = getHeader(event, 'x-forwarded-proto')
   const host = getHeader(event, 'host') || 'pgslott.to'
