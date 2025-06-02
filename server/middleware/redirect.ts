@@ -4,6 +4,12 @@ export default defineEventHandler(async (event) => {
   const url = getRequestURL(event)
   const xForwardedProto = getHeader(event, 'x-forwarded-proto')
   const host = getHeader(event, 'host') || 'pgslott.to'
+  
+  // Skip redirect for localhost
+  if (host.includes('localhost')) {
+    return
+  }
+
   const needsHttps = url.protocol === 'http:' || xForwardedProto === 'http'
   const needsTrailingSlashRemoval = url.pathname.length > 1 && url.pathname.endsWith('/')
   
