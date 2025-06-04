@@ -154,16 +154,16 @@ const faqItems = [
     answer: 'รหัสคูปอง : PGSLOTTONEWS100'
   },
   {
-    question: 'แจกคูปองสุดคุ้มทั้งสัปดาห์ ฝาก 150 รับ 64',
-    answer: 'โค้ด : 8KZTJ7PSWJG4LFG3'
+    question: 'ฝาก 100 รับ 66 ทำ 5 เท่า ถอน 2',
+    answer: 'โค้ด : 5MIDYEAR66'
   },
   {
-    question: 'แจกคูปองสุดคุ้มทั้งสัปดาห์ ฝาก 300 รับ 144',
-    answer: 'โค้ด : WSU0LK5039CZABVO'
+    question: 'ฝาก 300 รับ 166 ทำ 5 เท่า ถอน 2 เท่า',
+    answer: 'โค้ด : 5MIDYEAR166'
   },
   {
-    question: 'แจกคูปองสุดคุ้มทั้งสัปดาห์ ฝาก 1000 รับ 444',
-    answer: 'โค้ด : 0ZHBXDMEKOU7HXTD'
+    question: 'ฝาก 500 รับ 266 ทำ 5 เท่า ถอน 2 เท่า',
+    answer: 'โค้ด : 5MIDYEAR266'
   },
   {
     question: 'รับเพชร Roadmap Google',
