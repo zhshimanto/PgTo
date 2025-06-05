@@ -155,15 +155,15 @@ const faqItems = [
   },
   {
     question: 'ฝาก 100 รับ 66 ทำ 5 เท่า ถอน 2',
-    answer: 'โค้ด : 5MIDYEAR66'
+    answer: 'โค้ด : 6MIDYEAR66'
   },
   {
     question: 'ฝาก 300 รับ 166 ทำ 5 เท่า ถอน 2 เท่า',
-    answer: 'โค้ด : 5MIDYEAR166'
+    answer: 'โค้ด : 6MIDYEAR166'
   },
   {
     question: 'ฝาก 500 รับ 266 ทำ 5 เท่า ถอน 2 เท่า',
-    answer: 'โค้ด : 5MIDYEAR266'
+    answer: 'โค้ด : 6MIDYEAR266'
   },
   {
     question: 'รับเพชร Roadmap Google',
