@@ -1,7 +1,7 @@
 import { defineEventHandler } from 'h3'
 
 export default defineEventHandler(async (event) => {
-  const baseUrl = 'https://pgslott.to'
+  const baseUrl = 'https://pgslot1.to'
 
   // Static pages
   const staticPages = [
