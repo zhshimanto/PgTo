@@ -44,7 +44,7 @@
                 <p class="text-white max-w-2xl mx-auto">เลือกวิธีการฝากเงินที่ต้องการ จากนั้นทำการระบุจำนวนเงินฝากของท่าน
                 </p>
                 <h3 class="text-xl max-w-2xl mx-auto font-semibold mb-4 text-white">ขั้นตอนที่ 4 </h3>
-                
+
                 <p class="text-white max-w-2xl mx-auto">กดปุ่มเสร็จสิ้นเมื่อการดำเนินการฝากเงินของท่านสำเร็จ
                 </p>
                 <h3 class="text-xl max-w-2xl mx-auto font-semibold mb-4 text-white">ข้อสังเกตและข้อแนะนำในการฝากเงิน</h3>
@@ -59,7 +59,7 @@
                 </div>
                 <h3 class="text-xl max-w-2xl mx-auto font-semibold mb-4 text-white">ขั้นตอนที่ 3</h3>
                 <p class="text-white max-w-2xl mx-auto">เลือกวิธีการถอนเงินที่ต้องการ จากนั้นทำการระบุช่องทางการถอนเงินที่ท่านต้องการ</p>
-               
+
                 <h3 class="text-xl max-w-2xl mx-auto font-semibold mb-4 text-white">ขั้นตอนที่ 4</h3>
                 <p class="text-white max-w-2xl mx-auto">กดปุ่มเสร็จสิ้นเมื่อการดำเนินการถอนเงินของท่านสำเร็จ</p>
                 <h3 class="text-xl max-w-2xl mx-auto font-semibold mb-4 text-white">ข้อสังเกตในการถอนเงินที่ควรทราบ</h3>
@@ -80,16 +80,16 @@ useHead({
   htmlAttrs: {
     lang: 'th'
   },
-  title: 'วิธีใช้งาน pgslott.to สมัครสมาชิกอย่างไร ฝากและถอนเงินอย่างไร',
+  title: 'วิธีใช้งาน pgslot1.to สมัครสมาชิกอย่างไร ฝากและถอนเงินอย่างไร',
   meta: [
     { name: 'description', content: 'รวมวิธีการลงทะเบียน การฝากและถอนเงินอย่างง่ายมาให้กับคุณที่นี่แล้ว สมัครสมาชิกอย่างไรให้เริ่มเล่นสล็อต PG ภายใน 1 นาทีพร้อมวิธีรับเครดิตฟรีสำหรับการสมาชิกใหม่ที่นี่' },
     { name: 'keywords', content: 'วิธีใช้งาน pgslott,สมัครสมาชิก pg slot,ฝากถอนเงิน pg slot,คู่มือการใช้งาน,วิธีสมัครสมาชิก,วิธีฝากถอน' },
-    { property: 'og:title', content: 'วิธีใช้งาน pgslott.to สมัครสมาชิกอย่างไร ฝากและถอนเงินอย่างไร' },
+    { property: 'og:title', content: 'วิธีใช้งาน pgslot1.to สมัครสมาชิกอย่างไร ฝากและถอนเงินอย่างไร' },
     { property: 'og:description', content: 'รวมวิธีการลงทะเบียน การฝากและถอนเงินอย่างง่ายมาให้กับคุณที่นี่แล้ว สมัครสมาชิกอย่างไรให้เริ่มเล่นสล็อต PG ภายใน 1 นาทีพร้อมวิธีรับเครดิตฟรีสำหรับการสมาชิกใหม่ที่นี่' },
     { property: 'og:type', content: 'website' },
     { property: 'og:url', content: 'https://pgslott.to/game-manual' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'วิธีใช้งาน pgslott.to สมัครสมาชิกอย่างไร ฝากและถอนเงินอย่างไร' },
+    { name: 'twitter:title', content: 'วิธีใช้งาน pgslot1.to สมัครสมาชิกอย่างไร ฝากและถอนเงินอย่างไร' },
     { name: 'twitter:description', content: 'รวมวิธีการลงทะเบียน การฝากและถอนเงินอย่างง่ายมาให้กับคุณที่นี่แล้ว สมัครสมาชิกอย่างไรให้เริ่มเล่นสล็อต PG ภายใน 1 นาทีพร้อมวิธีรับเครดิตฟรีสำหรับการสมาชิกใหม่ที่นี่' }
   ]
 })

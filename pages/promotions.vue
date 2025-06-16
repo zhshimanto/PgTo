@@ -229,7 +229,7 @@ useHead({
         "โปรโมชั่นสุดพิเศษสำหรับคนรักการเดิมพันนำเสนอโปรสล็อต pg 2025 อัปเดตใหม่ล่าสุด ถอนได้ไม่จำกัดบนเว็บลิขสิทธิ์แท้ไม่ผ่านเอเยนต์อันดับ 1 ที่ดีที่สุดในตอนนี้",
     },
     { property: "og:type", content: "website" },
-    { property: "og:url", content: "https://pgslott.to/โปรโมชั่น" },
+    { property: "og:url", content: "https://pgslot1.to/โปรโมชั่น" },
     { name: "twitter:card", content: "summary_large_image" },
     {
       name: "twitter:title",

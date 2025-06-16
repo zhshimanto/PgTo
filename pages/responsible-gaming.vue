@@ -3,13 +3,13 @@
       <div class="container mx-auto px-4 py-8">
         <div class="max-w-4xl mx-auto">
           <div class="mb-12">
-            <h1 class="text-3xl max-w-2xl mx-auto font-bold mb-6 text-white">ความรับผิดชอบต่อสังคมในการเล่นเกมกับ pgslott.to</h1>
+            <h1 class="text-3xl max-w-2xl mx-auto font-bold mb-6 text-white">ความรับผิดชอบต่อสังคมในการเล่นเกมกับ pgslot1.to</h1>
             <p class="text-lg max-w-2xl mx-auto text-white leading-relaxed">
                 เราใส่ใจและมีความห่วงใยต่อสมาชิกผู้มีอุปการะคุณของเราทุกท่าน ด้วยการเดิมพันเพื่อความบันเทิงจากเว็บไซต์ของเรานั้น เรามุ่งมั่นที่จะให้ท่านปฏิบัติตามการเดิมพันเพื่อความรับผิดชอบต่อทั้งสังคมและครอบครัวของท่าน </p>
             <p class="text-lg max-w-2xl mx-auto text-white leading-relaxed">
-                เราแนะนำให้สมาชิกผู้มีอุปการะคุณของเราทุกท่านทำการประเมิณพฤติกรรมการเดิมพันของท่านเพื่อให้แน่ใจว่าอยู่ในกรอบความรับผิดชอบตามมาตรฐาน 
+                เราแนะนำให้สมาชิกผู้มีอุปการะคุณของเราทุกท่านทำการประเมิณพฤติกรรมการเดิมพันของท่านเพื่อให้แน่ใจว่าอยู่ในกรอบความรับผิดชอบตามมาตรฐาน
             </p>
-            <h2 class="text-2xl max-w-2xl mx-auto font-bold mb-8 text-white">ข้อกำหนดความรับผิดชอบ pgslott.to
+            <h2 class="text-2xl max-w-2xl mx-auto font-bold mb-8 text-white">ข้อกำหนดความรับผิดชอบ pgslot to
             </h2>
             <p class="text-lg max-w-2xl mx-auto text-white leading-relaxed mb-2">
                 การพนันเพื่อความบันเทิง ไม่ใช่เพื่อผลกำไร
@@ -54,7 +54,7 @@
                 การพยายามเอาคืนเงินที่เสียไปด้วยการพนันมากขึ้นมักจะส่งผลให้สูญเสียมากขึ้น พฤติกรรมนี้เรียกว่า "ไล่ตามการสูญเสีย" ซึ่งเป็นวัฏจักรอันตรายที่อาจนำไปสู่ปัญหาการพนันได้ ยอมรับความสูญเสียและเดินจากไป
             </p>
             <p class="text-lg max-w-2xl mx-auto text-white leading-relaxed mb-2">
-                หลีกเลี่ยงการพนันทางอารมณ์   
+                หลีกเลี่ยงการพนันทางอารมณ์
             </p>
             <p class="text-lg max-w-2xl mx-auto text-white leading-relaxed mb-4">
                 หากท่านรู้สึกอยากเล่นการพนันเพื่อหลีกหนีจากความเจ็บปวดทางอารมณ์หรือทางกาย สิ่งสำคัญคือต้องหยุดเล่น การพนันไม่ใช่ทางแก้สำหรับความเครียด ภาวะซึมเศร้า ความเหงา หรือความเบื่อหน่าย การใช้การพนันเป็นกลไกการรับมืออาจเพิ่มความเสี่ยงของการติดการพนันและทำให้การต่อสู้ทางอารมณ์รุนแรงขึ้น
@@ -64,35 +64,34 @@
             </p>
 
         </div>
-  
+
         </div>
       </div>
     </div>
   </template>
-  
+
   <script setup>
   useHead({
     htmlAttrs: {
       lang: 'th'
     },
-    title: 'ความรับผิดชอบต่อสังคมในการเล่นเกมกับ pgslott.to',
+    title: 'ความรับผิดชอบต่อสังคมในการเล่นเกมกับ PG SLOT TO',
     meta: [
       { name: 'description', content: 'เราสนับสนุนการเล่นเกมอย่างมีความรับผิดชอบต่อสังคม และครอบครัวของท่าน เพื่อให้ได้รับประโยชน์จากการเล่นเกมสูงสุดควรตระหนักต่อการเดิมพันของท่านทุกครั้ง' },
-      { name: 'keywords', content: 'pgslott, ความรับผิดชอบต่อสังคมในการเล่นเกม, ความรับผิดชอบต่อสังคมในการเล่นเกม, ' },
-      { property: 'og:title', content: 'ความรับผิดชอบต่อสังคมในการเล่นเกมกับ pgslott.to' },
+      { name: 'keywords', content: 'pgslot, ความรับผิดชอบต่อสังคมในการเล่นเกม, ความรับผิดชอบต่อสังคมในการเล่นเกม, ' },
+      { property: 'og:title', content: 'ความรับผิดชอบต่อสังคมในการเล่นเกมกับ PG TO' },
       { property: 'og:description', content: 'เราสนับสนุนการเล่นเกมอย่างมีความรับผิดชอบต่อสังคม และครอบครัวของท่าน เพื่อให้ได้รับประโยชน์จากการเล่นเกมสูงสุดควรตระหนักต่อการเดิมพันของท่านทุกครั้ง' },
       { property: 'og:type', content: 'website' },
-      { property: 'og:url', content: 'https://pgslott.to/responsible-gaming' },
+      { property: 'og:url', content: 'https://pgslot1.to/responsible-gaming' },
       { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:title', content: 'ความรับผิดชอบต่อสังคมในการเล่นเกมกับ pgslott.to' },
+      { name: 'twitter:title', content: 'ความรับผิดชอบต่อสังคมในการเล่นเกมกับ pgslot1.to' },
       { name: 'twitter:description', content: 'เราสนับสนุนการเล่นเกมอย่างมีความรับผิดชอบต่อสังคม และครอบครัวของท่าน เพื่อให้ได้รับประโยชน์จากการเล่นเกมสูงสุดควรตระหนักต่อการเดิมพันของท่านทุกครั้ง' }
     ]
   })
   </script>
-  
+
   <style scoped>
   .responsible-gaming {
     padding: 8rem 0 0 0;
   }
   </style>
-  

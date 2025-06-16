@@ -3,23 +3,23 @@
       <div class="container mx-auto px-4 py-8">
         <div class="max-w-4xl mx-auto">
           <div class="mb-12">
-            <h1 class="text-3xl max-w-2xl mx-auto font-bold mb-6 text-white">ข้อตกลง/เงื่อนไขการใช้บริการของ pgslott.to</h1>
-            
+            <h1 class="text-3xl max-w-2xl mx-auto font-bold mb-6 text-white">ข้อตกลง/เงื่อนไขการใช้บริการของ พีจี TO</h1>
+
             <div class="text-white space-y-8 max-w-2xl mx-auto">
               <section>
                 <h2 class="text-2xl font-bold mb-4">เงื่อนไขและกฎระเบียบทั่วไป</h2>
-                
+
                 <div class="space-y-6">
                   <div>
                     <h3 class="text-xl font-semibold mb-3">1. การลงทะเบียนบัญชีและข้อตกลง</h3>
                     <ul class="list-decimal pl-6 space-y-2">
-                      <li>เมื่อลงทะเบียนที่ pgslott.to ผู้เล่นจะต้องยอมรับข้อกำหนดและเงื่อนไข นโยบายความเป็นส่วนตัว และกฎของเกม</li>
+                      <li>เมื่อลงทะเบียนที่ pgslot1.to ผู้เล่นจะต้องยอมรับข้อกำหนดและเงื่อนไข นโยบายความเป็นส่วนตัว และกฎของเกม</li>
                       <li>คาสิโนอาจแก้ไขข้อกำหนดได้ตลอดเวลาโดยไม่ต้องแจ้งให้ทราบล่วงหน้า</li>
                       <li>ผู้เล่นต้องตรวจสอบข้อกำหนดเป็นประจำ</li>
                       <li>การลงทะเบียนไม่ได้ให้สิทธิ์ใดๆ ต่อเนื้อหาของไซต์หรือทรัพย์สินทางปัญญา</li>
                     </ul>
                   </div>
-                  
+
                   <div>
                     <h3 class="text-xl font-semibold mb-3">2. กฎการเล่นเกม</h3>
                     <ul class="list-decimal pl-6 space-y-2">
@@ -104,30 +104,29 @@
       </div>
     </div>
   </template>
-  
+
   <script setup>
   useHead({
     htmlAttrs: {
       lang: 'th'
     },
-    title: 'ข้อตกลง/เงื่อนไขการใช้บริการจาก pgslott.to',
+    title: 'ข้อตกลง/เงื่อนไขการใช้บริการจาก SLOTPG TO',
     meta: [
       { name: 'description', content: 'รายละเอียดเงื่อนไขและกฎระเบียบทั่วไปที่ควรทราบจากการใช้บริการของเรา อาทิ ข้อบังคับทางกฎหมาย การเปิดบัญชี ข้อบังคับในด้านปลอดภัยเพื่อป้องกันการกระทำฉ้อโกง' },
       { name: 'keywords', content: 'pgslott, ข้อตกลง/เงื่อนไขการใช้บริการ, ' },
-      { property: 'og:title', content: 'ข้อตกลง/เงื่อนไขการใช้บริการจาก pgslott.to' },
+      { property: 'og:title', content: 'ข้อตกลง/เงื่อนไขการใช้บริการจาก PG SLOT TO' },
       { property: 'og:description', content: 'รายละเอียดเงื่อนไขและกฎระเบียบทั่วไปที่ควรทราบจากการใช้บริการของเรา อาทิ ข้อบังคับทางกฎหมาย การเปิดบัญชี ข้อบังคับในด้านปลอดภัยเพื่อป้องกันการกระทำฉ้อโกง' },
       { property: 'og:type', content: 'website' },
-      { property: 'og:url', content: 'https://pgslott.to/terms-and-conditions' },
+      { property: 'og:url', content: 'https://pgslot1.to/terms-and-conditions' },
       { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:title', content: 'ข้อตกลง/เงื่อนไขการใช้บริการจาก pgslott.to' },
+      { name: 'twitter:title', content: 'ข้อตกลง/เงื่อนไขการใช้บริการจาก pgslot1.to' },
       { name: 'twitter:description', content: 'รายละเอียดเงื่อนไขและกฎระเบียบทั่วไปที่ควรทราบจากการใช้บริการของเรา อาทิ ข้อบังคับทางกฎหมาย การเปิดบัญชี ข้อบังคับในด้านปลอดภัยเพื่อป้องกันการกระทำฉ้อโกง' }
     ]
   })
   </script>
-  
+
   <style scoped>
   .terms-and-conditions {
     padding: 8rem 0 0 0;
   }
   </style>
-  

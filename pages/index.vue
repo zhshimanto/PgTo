@@ -20,7 +20,7 @@ htmlAttrs: {
     { property: 'og:title', content: 'PG SLOT TO เว็บตรงไม่ผ่านเอเย่นต์ ลิขสิทธิ์แท้จาก PGSLOT สล็อตแตกง่ายอันดับ 1 แห่งปี' },
     { property: 'og:description', content: 'PGSLOT.TO สล็อตเว็บตรงลิขสิทธิ์แท้จาก PGSOFT แจ็กพอตแตกง่าย ฝากถอนผ่านระบบ API แท้ จ่ายจริง ไม่ผ่านเอเยนต์ เล่นได้ 24 ชม.' },
     { property: 'og:type', content: 'website' },
-    { property: 'og:url', content: 'https://pgslott.to' },
+    { property: 'og:url', content: 'https://pgslot1.to' },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'PG SLOT TO เว็บตรงไม่ผ่านเอเย่นต์ ลิขสิทธิ์แท้จาก PGSLOT สล็อตแตกง่ายอันดับ 1 แห่งปี' },
     { name: 'twitter:description', content: 'PGSLOT.TO สล็อตเว็บตรงลิขสิทธิ์แท้จาก PGSOFT แจ็กพอตแตกง่าย ฝากถอนผ่านระบบ API แท้ จ่ายจริง ไม่ผ่านเอเยนต์ เล่นได้ 24 ชม.' }

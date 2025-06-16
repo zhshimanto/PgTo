@@ -57,7 +57,7 @@ export default defineNuxtConfig({
   ],
   runtimeConfig: {
     public: {
-      siteUrl: 'https://pgslott.to'
+      siteUrl: 'https://pgslot1.to'
     }
   },
   nitro: {
@@ -67,7 +67,7 @@ export default defineNuxtConfig({
   },
   robots: {
     debug: true,
-    sitemap: 'https://pgslott.to/sitemap.xml',
+    sitemap: 'https://pgslot1.to/sitemap.xml',
     allow: ['/']
   },
   css: ['~/assets/css/main.css'],
