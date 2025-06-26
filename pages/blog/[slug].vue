@@ -62,7 +62,7 @@ htmlAttrs: {
     { property: 'og:description', content: post.value.metaDescription },
     { property: 'og:image', content: post.value.image },
     { property: 'og:type', content: 'article' },
-    { property: 'og:url', content: `https://pgslott.to/blog/${post.value.slug}` },
+    { property: 'og:url', content: `https://pgslot1.to/blog/${post.value.slug}` },
     // Twitter Card
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: post.value.metaTitle },
@@ -73,7 +73,7 @@ htmlAttrs: {
     { property: 'article:author', content: post.value.author }
   ],
   link: [
-    { rel: 'canonical', href: `https://pgslott.to/blog/${post.value.slug}` }
+    { rel: 'canonical', href: `https://pgslot1.to/blog/${post.value.slug}` }
   ]
 }))
 </script>
