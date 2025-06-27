@@ -233,16 +233,16 @@ const faqItems = [
     answer: "รหัสคูปอง : PGSLOTTONEWS100",
   },
   {
-    question: "ฝาก 100 รับ 66 ทำ 5 เท่า ถอน 2",
-    answer: "โค้ด : 6MIDYEAR66",
+    question: "ฝากบิล 100 รับฟรี 50 ถอนได้ 50",
+    answer: "โค้ด : PMJETPMRRWDB9QT6",
   },
   {
-    question: "ฝาก 300 รับ 166 ทำ 5 เท่า ถอน 2 เท่า",
-    answer: "โค้ด : 6MIDYEAR166",
+    question: "ฝากบิล 500 รับฟรี 100 ถอนได้ 100",
+    answer: "โค้ด : LC2323TPJRR2SEWP",
   },
   {
-    question: "ฝาก 500 รับ 266 ทำ 5 เท่า ถอน 2 เท่า",
-    answer: "โค้ด : 6MIDYEAR266",
+    question: "ฝากบิล 1,000 รับฟรี 300 ถอนได้ 300 ",
+    answer: "โค้ด : ZRSVQEQ51IZFRANS",
   },
   {
     question: "รับเพชร Roadmap Google",
