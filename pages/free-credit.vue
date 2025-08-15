@@ -234,15 +234,15 @@ const faqItems = [
   },
   {
     question: "ฝากบิล 100 รับฟรี 50 ถอนได้ 50",
-    answer: "โค้ด : 4S2UE93G9PC1YLK9",
+    answer: "โค้ด : 3UG5X41X4KE35XEX",
   },
   {
     question: "ฝากบิล 500 รับฟรี 100 ถอนได้ 100",
-    answer: "โค้ด : 4PIEOUG8CNJ6EQK3",
+    answer: "โค้ด : IVUC1QAADC95CY3O",
   },
   {
     question: "ฝากบิล 1,000 รับฟรี 300 ถอนได้ 300 ",
-    answer: "โค้ด : ZAM6XKDNT4F2W1SP",
+    answer: "โค้ด : DAN52Z9UAFV9DOQN",
   },
   {
     question: "รับเพชร Roadmap Google",
