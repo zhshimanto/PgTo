@@ -1,7 +1,7 @@
 import { defineEventHandler } from 'h3'
 
 export default defineEventHandler(async (event) => {
-  const baseUrl = 'https://pgslot1.to'
+  const baseUrl = 'https://pgslot-to.to'
 
   // Static pages
   const staticPages = [
@@ -17,8 +17,21 @@ export default defineEventHandler(async (event) => {
   ]
 
   // Import and get blog posts from the data source
-  const blogPostsData = await import('../../data/blog-posts.json')
-  const blogPosts: string[] = blogPostsData.posts.map(post => `/blog/${post.slug}`)
+  let blogPosts: string[] = []
+  try {
+    const blogPostsData = await import('../../data/blog-posts.json')
+    if (blogPostsData && blogPostsData.posts && Array.isArray(blogPostsData.posts)) {
+      // Make sure we only include posts with valid slugs
+      blogPosts = blogPostsData.posts
+        .filter(post => post && post.slug && typeof post.slug === 'string')
+        .map(post => `/blog/${post.slug}`)
+      console.log(`Added ${blogPosts.length} blog posts to sitemap`)
+    } else {
+      console.error('Blog posts data structure is not as expected')
+    }
+  } catch (error) {
+    console.error('Error loading blog posts for sitemap:', error)
+  }
 
   const allPages = [...staticPages, ...blogPosts]
 

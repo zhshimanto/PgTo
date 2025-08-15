@@ -8,7 +8,7 @@ export default defineNuxtConfig({
       meta: [
         {
           name: 'google-site-verification',
-          content: 'dWY3w1zCqy0P_cijlTDPYkJMiW5lvCWgjbbuEUeHtFY'
+          content: 'ECChefUVcDSmxDRLrGM9EVhosf4koLPKRMXzyXLKL8k'
         }
       ],
       noscript: [
@@ -38,11 +38,11 @@ export default defineNuxtConfig({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             name: 'PG SLOT TO',
-            url: 'https://pgslot1.to',
+            url: 'https://pgslot-to.to',
             description: 'บทความสล็อตมัดรวมข้อมูลความรู้พร้อมเทคนิคทำเงินดี ๆ และอัปเดตเกมใหม่ล่าสุดที่นักเดิมพันทุกระดับไม่ควรพลาด บทความสล็อตออนไลน์ทำไมถึงมีความสำคัญที่จำเป็นต้องอ่านคลิก',
             potentialAction: {
               '@type': 'SearchAction',
-              'target': 'https://pgslot1.to/search?q={search_term_string}',
+              'target': 'https://pgslot-to.to/search?q={search_term_string}',
               'query-input': 'required name=search_term_string'
             }
           })
@@ -57,7 +57,7 @@ export default defineNuxtConfig({
   ],
   runtimeConfig: {
     public: {
-      siteUrl: 'https://pgslot1.to'
+      siteUrl: 'https://pgslot-to.to'
     }
   },
   nitro: {
@@ -67,7 +67,7 @@ export default defineNuxtConfig({
   },
   robots: {
     debug: true,
-    sitemap: 'https://pgslot1.to/sitemap.xml',
+    sitemap: 'https://pgslot-to.to/sitemap.xml',
     allow: ['/']
   },
   css: ['~/assets/css/main.css'],

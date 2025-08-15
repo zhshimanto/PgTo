@@ -86,7 +86,7 @@ htmlAttrs: {
     { property: 'og:title', content: 'ติดต่อเรารวมช่องทางติดต่อเว็บตรง PGSLOT.TO' },
     { property: 'og:description', content: 'ติดต่อเราได้สะดวกลัดสั้นตรงและตอบโจทย์ทุกปัญหาคาใจได้ตลอด 24 ชั่วโมง เราพร้อมมีแอดมินชำนาญการพร้อมแก้ปัญหาทุกรูปแบบติดต่อ PG Slot โดยตรงกับเราได้เลยตอนนี้' },
     { property: 'og:type', content: 'website' },
-    { property: 'og:url', content: 'https://pgslot1.to/contact' },
+    { property: 'og:url', content: 'https://pgslot-to.to/contact' },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'ติดต่อเรารวมช่องทางติดต่อเว็บตรง PGSLOT.TO' },
     { name: 'twitter:description', content: 'ติดต่อเราได้สะดวกลัดสั้นตรงและตอบโจทย์ทุกปัญหาคาใจได้ตลอด 24 ชั่วโมง เราพร้อมมีแอดมินชำนาญการพร้อมแก้ปัญหาทุกรูปแบบติดต่อ PG Slot โดยตรงกับเราได้เลยตอนนี้' }

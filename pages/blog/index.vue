@@ -196,7 +196,7 @@ useHead({
         "บทความสล็อตมัดรวมข้อมูลความรู้พร้อมเทคนิคทำเงินดี ๆ และอัปเดตเกมใหม่ล่าสุดที่นักเดิมพันทุกระดับไม่ควรพลาด บทความสล็อตออนไลน์ทำไมถึงมีความสำคัญที่จำเป็นต้องอ่านคลิก",
     },
     { property: "og:type", content: "website" },
-    { property: "og:url", content: "https://pgslot1.to/blog" },
+    { property: "og:url", content: "https://pgslot-to.to/blog" },
     { name: "twitter:card", content: "summary_large_image" },
     {
       name: "twitter:title",

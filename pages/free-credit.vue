@@ -276,7 +276,7 @@ useHead({
         "เครดิตฟรีสิทธิพิเศษเอาใจนักเดิมพัน PG Slot ยกระดับความมันอย่างไม่มีที่สิ้นสุดไปพร้อมกับสล็อตเครดิตฟรีที่จะเพิ่มจำนวนเครดิตและลดความเสี่ยงการเสียทุนหลัก",
     },
     { property: "og:type", content: "website" },
-    { property: "og:url", content: "https://pgslot1.to/free-credit" },
+    { property: "og:url", content: "https://pgslot-to.to/free-credit" },
     { name: "twitter:card", content: "summary_large_image" },
     {
       name: "twitter:title",

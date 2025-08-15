@@ -3,7 +3,7 @@
       <div class="container mx-auto px-4 py-8">
         <div class="max-w-4xl mx-auto">
           <div class="mb-12">
-            <h1 class="text-3xl max-w-2xl mx-auto font-bold mb-6 text-white">ความรับผิดชอบต่อสังคมในการเล่นเกมกับ pgslot1.to</h1>
+            <h1 class="text-3xl max-w-2xl mx-auto font-bold mb-6 text-white">ความรับผิดชอบต่อสังคมในการเล่นเกมกับ pgslot-to.to</h1>
             <p class="text-lg max-w-2xl mx-auto text-white leading-relaxed">
                 เราใส่ใจและมีความห่วงใยต่อสมาชิกผู้มีอุปการะคุณของเราทุกท่าน ด้วยการเดิมพันเพื่อความบันเทิงจากเว็บไซต์ของเรานั้น เรามุ่งมั่นที่จะให้ท่านปฏิบัติตามการเดิมพันเพื่อความรับผิดชอบต่อทั้งสังคมและครอบครัวของท่าน </p>
             <p class="text-lg max-w-2xl mx-auto text-white leading-relaxed">
@@ -82,9 +82,9 @@
       { property: 'og:title', content: 'ความรับผิดชอบต่อสังคมในการเล่นเกมกับ PG TO' },
       { property: 'og:description', content: 'เราสนับสนุนการเล่นเกมอย่างมีความรับผิดชอบต่อสังคม และครอบครัวของท่าน เพื่อให้ได้รับประโยชน์จากการเล่นเกมสูงสุดควรตระหนักต่อการเดิมพันของท่านทุกครั้ง' },
       { property: 'og:type', content: 'website' },
-      { property: 'og:url', content: 'https://pgslot1.to/responsible-gaming' },
+      { property: 'og:url', content: 'https://pgslot-to.to/responsible-gaming' },
       { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:title', content: 'ความรับผิดชอบต่อสังคมในการเล่นเกมกับ pgslot1.to' },
+      { name: 'twitter:title', content: 'ความรับผิดชอบต่อสังคมในการเล่นเกมกับ pgslot-to.to' },
       { name: 'twitter:description', content: 'เราสนับสนุนการเล่นเกมอย่างมีความรับผิดชอบต่อสังคม และครอบครัวของท่าน เพื่อให้ได้รับประโยชน์จากการเล่นเกมสูงสุดควรตระหนักต่อการเดิมพันของท่านทุกครั้ง' }
     ]
   })

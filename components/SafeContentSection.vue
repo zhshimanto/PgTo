@@ -14,7 +14,7 @@
       </div>
       
       <div class="button-credit">
-            <a class="btn-login text-center" href="https://pgslott.to/free-credit">
+            <a class="btn-login text-center" href="https://pgslot-to.to/free-credit">
               รับเครดิตฟรี
             </a>
           </div>
@@ -95,7 +95,7 @@
           </h2> 
           <h3 class="text-xl font-semibold mb-2 text-white">ใช้เวลาน้อยกว่า 2 นาที ไม่ต้องยืนยันบัตร ปลอดภัยและเร็ว</h3>
           <ol class="list-decimal text-white pl-6">
-            <li>เข้าไปที่หน้าเว็บ → <a href="https://pgslott.to" target="_blank">PGSLOTT.TO</a></li>
+            <li>เข้าไปที่หน้าเว็บ → <a href="https://pgslot-to.to" target="_blank">PGSLOT-TO.TO</a></li>
             <li>กดปุ่ม "สมัครสมาชิก" มุมขวาบน</li>
             <li>กรอกข้อมูลให้ครบ (เบอร์, ตั้งรหัสผ่าน, บัญชีรับเงิน)</li>
             <li>กดยืนยัน แล้วล็อกอินเข้าระบบ</li>

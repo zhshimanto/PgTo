@@ -110,7 +110,7 @@ htmlAttrs: {
     { property: 'og:title', content: 'PG SLOT TO เว็บลิขสิทธิ์แท้พีจีสล็อตโบนัสแจ็กพอตแตกง่ายที่สุด 2025' },
     { property: 'og:description', content: 'PGSLOT.TO เว็บใหม่มาแรงที่สุดพร้อมให้บริการเกมลิขสิทธิ์แท้ส่งตรงจาก POCKET GAMES SOFT พีจีสล็อตสีชมพูแจ็กพอตแตกบ่อยฝากถอนไวจ่ายจริงผ่านระบบ API แท้ไม่ผ่านเอเยนต์' },
     { property: 'og:type', content: 'website' },
-    { property: 'og:url', content: 'https://pgslot1.to' },
+    { property: 'og:url', content: 'https://pgslot-to.to' },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'PG SLOT TO เว็บลิขสิทธิ์แท้พีจีสล็อตโบนัสแจ็กพอตแตกง่ายที่สุด 2025' },
     { name: 'twitter:description', content: 'PGSLOT.TO เว็บใหม่มาแรงที่สุดพร้อมให้บริการเกมลิขสิทธิ์แท้ส่งตรงจาก POCKET GAMES SOFT พีจีสล็อตสีชมพูแจ็กพอตแตกบ่อยฝากถอนไวจ่ายจริงผ่านระบบ API แท้ไม่ผ่านเอเยนต์' }
