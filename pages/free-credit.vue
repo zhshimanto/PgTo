@@ -49,7 +49,47 @@
             </div>
           </div>
         </div>
-
+        <div>
+              <h2 class="text-2xl md:text-3xl font-bold mb-4 text-center">
+                แจกโค้ดฟรีทุกวันศุกร์
+              </h2>
+              <div class="max-w-3xl mx-auto bg-[#ff80b7]/80 backdrop-blur-sm rounded-xl p-6 md:p-8 shadow-xl border border-white/10 mb-12">
+                <div class="space-y-4">
+                  <div
+                    v-for="(item, index) in fridayFreeCodeItems"
+                    :key="index"
+                    class="border border-white/20 rounded-lg overflow-hidden"
+                  >
+                    <button
+                      @click="toggleFridayAccordion(index)"
+                      class="w-full px-6 py-4 flex justify-between items-center text-white hover:bg-white/10 transition-colors"
+                    >
+                      <span class="text-lg font-medium">{{ item.question }}</span>
+                      <svg
+                        class="w-6 h-6 transition-transform duration-300"
+                        :class="{ 'rotate-180': fridayActiveIndex === index }"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M19 9l-7 7-7-7"
+                        />
+                      </svg>
+                    </button>
+                    <div v-show="fridayActiveIndex === index" class="px-6 py-4 bg-black/20">
+                      <p
+                        class="text-white/90 leading-relaxed"
+                        v-html="item.answer"
+                      ></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
         <div class="mx-auto max-w-6xl">
           <div class="max-w-2xl mx-auto space-y-10 text-white">
             <div>
@@ -198,6 +238,8 @@
                 </li>
               </ul>
             </div>
+            
+            
           </div>
         </div>
       </div>
@@ -209,9 +251,14 @@
 import { ref } from "vue";
 
 const activeIndex = ref(null);
+const fridayActiveIndex = ref(null);
 
 const toggleAccordion = (index) => {
   activeIndex.value = activeIndex.value === index ? null : index;
+};
+
+const toggleFridayAccordion = (index) => {
+  fridayActiveIndex.value = fridayActiveIndex.value === index ? null : index;
 };
 
 const faqItems = [
@@ -233,6 +280,14 @@ const faqItems = [
     answer: "รหัสคูปอง : PGSLOTTONEWS100",
   },
   {
+    
+    question: "รับเพชร Roadmap Google",
+    answer: "รหัสคูปอง : PGSLOTTOGOOGLE",
+  },
+];
+
+const fridayFreeCodeItems = [
+{
     question: "ฝากบิล 100 รับฟรี 50 ถอนได้ 50",
     answer: "โค้ด : 3UG5X41X4KE35XEX",
   },
@@ -243,11 +298,7 @@ const faqItems = [
   {
     question: "ฝากบิล 1,000 รับฟรี 300 ถอนได้ 300 ",
     answer: "โค้ด : DAN52Z9UAFV9DOQN",
-  },
-  {
-    question: "รับเพชร Roadmap Google",
-    answer: "รหัสคูปอง : PGSLOTTOGOOGLE",
-  },
+  }
 ];
 
 useHead({
