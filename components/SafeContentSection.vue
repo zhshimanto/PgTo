@@ -159,7 +159,7 @@
             </ul>
             <p class="text-white mb-12">อย่ารอช้า สมัครตอนนี้ แล้วเริ่มปั่นเกมที่คุณชอบกับ สล็อตพีจี TO ได้เลย!</p>
 
-               <a href="https://playpgslot.to/" target="_blank" class="btn btn-primary mt-4 btn-register text-center">👉 สมัครฟรี คลิกที่นี่ 👈</a>
+               <a href="https://playpgslot.to/register?hid=P2P1F1G4EQ" target="_blank" class="btn btn-primary mt-4 btn-register text-center">👉 สมัครฟรี คลิกที่นี่ 👈</a>
 
 
       </div>

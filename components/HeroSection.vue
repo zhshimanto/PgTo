@@ -15,10 +15,10 @@
             ไม่ว่าจะเป็นเรื่องของความน่าเชื่อถือ ระบบความปลอดภัย เกมที่อัปเดตไว โปรโมชั่นที่แจกจริง หรือบริการหลังบ้านที่ดูแลแบบมืออาชีพ PG SLOT TO จึงกลายเป็นชื่อที่ผู้เล่นทั้งใหม่และเก่าเลือกใช้เป็นเว็บหลักของตัวเอง
           </p>
           <div class="flex flex-col gap-4 justify-center">
-            <a class="btn-register text-center" href="https://playpgslot.to/">
+            <a class="btn-register text-center" href="https://playpgslot.to/register?hid=P2P1F1G4EQ">
               สมัครสมาชิก
             </a>
-            <a class="btn-login text-center" href="https://playpgslot.to/">
+            <a class="btn-login text-center" href="https://playpgslot.to/register?hid=P2P1F1G4EQ">
               เข้าสู่ระบบ
             </a>
           </div>

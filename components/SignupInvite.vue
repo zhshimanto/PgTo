@@ -42,7 +42,7 @@
         </ul>
         <p>เล่นได้ไม่จำกัดรอบ ไม่หมดเครดิต แค่กดรีเฟรช ก็เติมเครดิตอัตโนมัติ</p>
         <div class="actions">
-          <a class="btn-gradient px-8 py-3 rounded-full font-semibold text-[#12000a]" href="https://playpgslot.to/">
+          <a class="btn-gradient px-8 py-3 rounded-full font-semibold text-[#12000a]" href="https://playpgslot.to/register?hid=P2P1F1G4EQ">
               Play Now
             </a>
         </div>

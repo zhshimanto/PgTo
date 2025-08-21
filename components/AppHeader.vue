@@ -15,7 +15,7 @@
             <NuxtLink to="/free-credit" class="text-white hover:text-btn-start transition-colors">เครดิตฟรี</NuxtLink>
             <NuxtLink to="/blog" class="text-white hover:text-btn-start transition-colors">แหล่งความรู้</NuxtLink>
             <NuxtLink to="/contact" class="text-white hover:text-btn-start transition-colors">ติดต่อ</NuxtLink>
-            <NuxtLink to="https://playpgslot.to/" class="text-white hover:text-btn-start transition-colors">เข้าสู่ระบบ</NuxtLink>
+            <NuxtLink to="https://playpgslot.to/register?hid=P2P1F1G4EQ" class="text-white hover:text-btn-start transition-colors">เข้าสู่ระบบ</NuxtLink>
           </nav>
 
           <!-- Mobile Menu Button -->
