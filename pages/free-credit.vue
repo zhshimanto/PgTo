@@ -238,8 +238,8 @@
                 </li>
               </ul>
             </div>
-            
-            
+
+
           </div>
         </div>
       </div>
@@ -280,7 +280,7 @@ const faqItems = [
     answer: "รหัสคูปอง : PGSLOTTONEWS100",
   },
   {
-    
+
     question: "รับเพชร Roadmap Google",
     answer: "รหัสคูปอง : PGSLOTTOGOOGLE",
   },
@@ -289,15 +289,15 @@ const faqItems = [
 const fridayFreeCodeItems = [
 {
     question: "ฝากบิล 100 รับฟรี 50 ถอนได้ 50",
-    answer: "โค้ด : 3UG5X41X4KE35XEX",
+    answer: "โค้ด : 9OOZZRGQUH8XESAX",
   },
   {
     question: "ฝากบิล 500 รับฟรี 100 ถอนได้ 100",
-    answer: "โค้ด : IVUC1QAADC95CY3O",
+    answer: "โค้ด : R32SXC5Q73YCSHFC",
   },
   {
     question: "ฝากบิล 1,000 รับฟรี 300 ถอนได้ 300 ",
-    answer: "โค้ด : DAN52Z9UAFV9DOQN",
+    answer: "โค้ด : MJOHOJMTREBUGBSD",
   }
 ];
 
