@@ -99,7 +99,7 @@
               <ul class="list-disc text-white space-y-2 pl-5">
                 <li>
                   สมัครสมาชิกผ่านเว็บตรง
-                  <a href="/" class="underline font-semibold">PGSLOT1.TO</a>
+                  <a href="/" class="underline font-semibold">PGSLOT-TO.TO</a>
                   ไม่ผ่านเอเยนต์
                 </li>
                 <li>ยืนยันเบอร์โทรด้วยรหัส OTP ระบบจะปลดล็อกสิทธิ์ให้ทันที</li>
@@ -289,15 +289,15 @@ const faqItems = [
 const fridayFreeCodeItems = [
 {
     question: "ฝากบิล 100 รับฟรี 50 ถอนได้ 50",
-    answer: "โค้ด : 9OOZZRGQUH8XESAX",
+    answer: "โค้ด : 231TBA6LGAFWPGLX",
   },
   {
     question: "ฝากบิล 500 รับฟรี 100 ถอนได้ 100",
-    answer: "โค้ด : R32SXC5Q73YCSHFC",
+    answer: "โค้ด : LEL6GMZCIP1908SI",
   },
   {
     question: "ฝากบิล 1,000 รับฟรี 300 ถอนได้ 300 ",
-    answer: "โค้ด : MJOHOJMTREBUGBSD",
+    answer: "โค้ด : IQYJPY3D7ES26NWY",
   }
 ];
 
