@@ -13,7 +13,8 @@ export default defineEventHandler(async (event) => {
     '/terms-and-conditions',
     '/privacy-policy',
     '/responsible-gaming',
-    '/game-manual'
+    '/game-manual',
+    '/something-fishy-acquired'
   ]
 
   // Import and get blog posts from the data source
