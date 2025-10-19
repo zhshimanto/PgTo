@@ -1,5 +1,5 @@
 <template>
-  <footer class="text-white py-12 mt-auto w-full max-w-[640px] mx-auto">
+  <footer class="text-white py-12 mt-auto w-full max-w-[800px] mx-auto">
     <div class="mx-auto px-4 w-full">
       <!-- Main Footer Content -->
       <div class="flex flex-col md:flex-row justify-between items-center gap-6 md:gap-8 mb-8">
@@ -21,6 +21,7 @@
           <NuxtLink to="/responsible-gaming" class="hover:text-[#fbd95d] transition-colors">Responsible Gaming</NuxtLink>
           <NuxtLink to="/terms-and-conditions" class="hover:text-[#fbd95d] transition-colors">Terms & Conditions</NuxtLink>
           <NuxtLink to="/privacy-policy" class="hover:text-[#fbd95d] transition-colors">Privacy Policy</NuxtLink>
+          <NuxtLink to="/something-fishy-acquired" class="hover:text-[#fbd95d] transition-colors">Something Fishy Acquired</NuxtLink>
         </div>
       </div>
     </div>
