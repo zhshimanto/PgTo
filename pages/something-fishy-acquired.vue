@@ -1,7 +1,7 @@
 <template>
-  <main class="mx-auto max-w-3xl px-4 py-10 leading-7 text-white">
+  <main class="mx-auto max-w-3xl px-4 py-8 leading-7 text-white pt-[72px] ">
     <!-- Hero banner -->
-    <header class="mb-8">
+    <header class="mb-8 mt-12">
       <p class="text-sm text-gray-600">ประกาศย้ายโดเมน • 25 กันยายน 2568</p>
       <h1 class="text-2xl font-bold mt-1">เกี่ยวกับ SOMETHING-FISHY.ORG</h1>
     </header>
@@ -74,12 +74,11 @@
 </template>
 
 <script setup>
-// This component is Nuxt 3 / Vue 3 friendly. For Nuxt, meta tags are injected via useHead.
 
 // Meta information
 const pageTitle = 'Something-Fishy.org เข้าร่วมกับ PG-SLOTTO.TO อย่างเป็นทางการ | ประกาศย้ายโดเมนวันที่ 25 กันยายน 2568';
 const metaDescription = 'Something-Fishy.org ถูกซื้อโดย PG-SLOTTO.TO เมื่อวันที่ 25 ก.ย. 2568 เว็บไซต์เดิมปิดให้บริการและย้ายสู่เว็บสล็อตตรงจากค่าย PG SLOT';
-const canonicalUrl = 'https://pg-slotto.to/';
+
 
 // JSON-LD structured data
 const jsonLdWebPage = {
@@ -90,15 +89,16 @@ const jsonLdWebPage = {
   description: metaDescription,
   datePublished: '2025-09-25',
   dateModified: '2025-09-25',
+  url: 'https://pgslot-to.to/something-fishy-acquired',
   isPartOf: {
     '@type': 'WebSite',
     name: 'PG-SLOTTO.TO',
-    url: 'https://pg-slotto.to/'
+    url: 'https://pgslot-to.to/'
   },
   mainEntity: {
     '@type': 'Organization',
     name: 'PG-SLOTTO.TO',
-    url: 'https://pg-slotto.to/'
+    url: 'https://pgslot-to.to/'
   }
 };
 
@@ -106,7 +106,7 @@ const jsonLdOrg = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: 'PG-SLOTTO.TO',
-  url: 'https://pg-slotto.to/',
+  url: 'https://pgslot-to.to/',
   sameAs: [
     // ใส่โซเชียล/โปรไฟล์ที่เป็นทางการ หากมี
   ]
@@ -118,21 +118,21 @@ useHead({
   title: pageTitle,
   meta: [
     { name: 'description', content: metaDescription },
-    { name: 'robots', content: 'noindex,follow' }, // ลดความสับสนระหว่างเนื้อหาเก่ากับแบรนด์เกม
+    { name: 'robots', content: 'index, follow' },
     // Open Graph
     { property: 'og:title', content: pageTitle },
     { property: 'og:description', content: metaDescription },
     { property: 'og:type', content: 'website' },
     { property: 'og:locale', content: 'th_TH' },
     { property: 'og:site_name', content: 'PG-SLOTTO.TO' },
-    { property: 'og:url', content: 'https://something-fishy.org/' },
+    { property: 'og:url', content: 'https://pgslot-to.to/something-fishy-acquired' },
     // Twitter
     { name: 'twitter:card', content: 'summary' },
     { name: 'twitter:title', content: pageTitle },
     { name: 'twitter:description', content: metaDescription }
   ],
   link: [
-    { rel: 'canonical', href: canonicalUrl }
+    { rel: 'canonical', href: 'https://pgslot-to.to/something-fishy-acquired' }
   ],
   script: [
     { type: 'application/ld+json', innerHTML: JSON.stringify(jsonLdWebPage) },
@@ -143,6 +143,7 @@ useHead({
     'ld-webpage': true,
     'ld-org': true
   }
+  
 });
 </script>
 
