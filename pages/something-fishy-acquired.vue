@@ -1,6 +1,6 @@
 <template>
   <main class="mx-auto max-w-3xl px-4 py-10 leading-7 text-white">
-    <!-- Hero -->
+    <!-- Hero banner -->
     <header class="mb-8">
       <p class="text-sm text-gray-600">ประกาศย้ายโดเมน • 25 กันยายน 2568</p>
       <h1 class="text-2xl font-bold mt-1">เกี่ยวกับ SOMETHING-FISHY.ORG</h1>
