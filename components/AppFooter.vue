@@ -21,7 +21,7 @@
           <NuxtLink to="/responsible-gaming" class="hover:text-[#fbd95d] transition-colors">Responsible Gaming</NuxtLink>
           <NuxtLink to="/terms-and-conditions" class="hover:text-[#fbd95d] transition-colors">Terms & Conditions</NuxtLink>
           <NuxtLink to="/privacy-policy" class="hover:text-[#fbd95d] transition-colors">Privacy Policy</NuxtLink>
-          <NuxtLink to="/something-fishy-acquired" class="hover:text-[#fbd95d] transition-colors">Something Fishy Acquired</NuxtLink>
+          <NuxtLink to="/something-fishy-acquired" class="hover:text-[#fbd95d] transition-colors">Something-fishy.org</NuxtLink>
         </div>
       </div>
     </div>
