@@ -45,11 +45,11 @@ export default defineNuxtConfig({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             name: 'PG SLOT TO',
-            url: 'https://pgslot-to.to',
+            url: 'https://pg-slotto.to',
             description: 'บทความสล็อตมัดรวมข้อมูลความรู้พร้อมเทคนิคทำเงินดี ๆ และอัปเดตเกมใหม่ล่าสุดที่นักเดิมพันทุกระดับไม่ควรพลาด บทความสล็อตออนไลน์ทำไมถึงมีความสำคัญที่จำเป็นต้องอ่านคลิก',
             potentialAction: {
               '@type': 'SearchAction',
-              'target': 'https://pgslot-to.to/search?q={search_term_string}',
+              'target': 'https://pg-slotto.to/search?q={search_term_string}',
               'query-input': 'required name=search_term_string'
             }
           })
@@ -60,7 +60,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   runtimeConfig: {
     public: {
-      siteUrl: 'https://pgslot-to.to'
+      siteUrl: 'https://pg-slotto.to'
     }
   },
   nitro: {
