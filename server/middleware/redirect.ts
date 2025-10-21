@@ -3,7 +3,7 @@ import { defineEventHandler, getRequestURL, sendRedirect, getHeader } from 'h3'
 export default defineEventHandler(async (event) => {
   const url = getRequestURL(event)
   const xForwardedProto = getHeader(event, 'x-forwarded-proto')
-  const host = getHeader(event, 'host') || 'pgslot-to.to'
+  const host = getHeader(event, 'host') || 'pg-slotto.to'
   
   // Skip redirect for localhost
   if (host.includes('localhost')) {
@@ -14,7 +14,7 @@ export default defineEventHandler(async (event) => {
   const needsTrailingSlashRemoval = url.pathname.length > 1 && url.pathname.endsWith('/')
   
   // Prevent redirect loops
-  if (url.protocol === 'https:' && !url.pathname.endsWith('/') && host === 'pgslot-to.to') {
+  if (url.protocol === 'https:' && !url.pathname.endsWith('/') && host === 'pg-slotto.to') {
     return
   }
 
@@ -22,7 +22,7 @@ export default defineEventHandler(async (event) => {
   if (needsHttps || needsTrailingSlashRemoval) {
     const protocol = 'https'
     const pathname = needsTrailingSlashRemoval ? url.pathname.slice(0, -1) : url.pathname
-    const redirectUrl = `${protocol}://pgslot-to.to${pathname}${url.search}`
+    const redirectUrl = `${protocol}://pg-slotto.to${pathname}${url.search}`
     return sendRedirect(event, redirectUrl, 301)
   }
 })
