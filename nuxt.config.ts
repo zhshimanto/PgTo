@@ -1,5 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { defineNuxtConfig } from 'nuxt/config'
+
 export default defineNuxtConfig({
+  modules: [
+    '@nuxtjs/robots',
+    '@nuxtjs/sitemap'
+  ],
   compatibilityDate: '2023-11-01',
   app: {
     head: {
@@ -53,7 +59,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/robots'
+    '@nuxtjs/robots',
+    '@nuxtjs/sitemap'
   ],
   runtimeConfig: {
     public: {
@@ -68,8 +75,21 @@ export default defineNuxtConfig({
   robots: {
     debug: true,
     sitemap: 'https://pgslot-to.to/sitemap.xml',
-    allow: ['/']
-  },
+    rules: [
+      {
+        UserAgent: '*',
+        Allow: '/'
+      },
+      {
+        UserAgent: 'GPTBot',
+        Allow: '/'
+      },
+      {
+        UserAgent: 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; GPTBot/1.1; +https://openai.com/gptbot',
+        Allow: '/'
+      }
+    ]
+  } as any,
   css: ['~/assets/css/main.css'],
   imports: {
     autoImport: true
