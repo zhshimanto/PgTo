@@ -10,7 +10,6 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxtjs/robots": "^5.2.10",
     "@nuxtjs/seo": "^3.0.3",
     "@nuxtjs/sitemap": "^5.1.0",
     "nuxt": "^3.16.2",
