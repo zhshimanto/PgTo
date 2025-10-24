@@ -289,11 +289,11 @@ const faqItems = [
 const fridayFreeCodeItems = [
 {
     question: "ฝากบิล 100 รับฟรี 50 ถอนได้ 50",
-    answer: "โค้ด : OYC46Y60Z5UV70Y6",
+    answer: "โค้ด : 93MZ1TWKSSFP0PZW",
   },
   {
     question: "ฝากบิล 500 รับฟรี 100 ถอนได้ 100",
-    answer: "โค้ด : 7UYXLTA6DFJXOA69",
+    answer: "โค้ด : YRAO8KOQBCMWMVRX",
   },
   {
     question: "ฝากบิล 1,000 รับฟรี 300 ถอนได้ 300 ",
