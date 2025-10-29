@@ -4,8 +4,7 @@ import { defineNuxtConfig } from 'nuxt/config'
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/robots',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/robots'
   ],
   compatibilityDate: '2023-11-01',
   app: {

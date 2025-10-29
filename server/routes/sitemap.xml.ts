@@ -48,6 +48,7 @@ export default defineEventHandler(async (event) => {
   `).join('')}
 </urlset>`
 
+  // Set the content type to XML
   event.node.res.setHeader('Content-Type', 'application/xml')
   return sitemap
 })
