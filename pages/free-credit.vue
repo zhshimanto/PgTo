@@ -289,15 +289,15 @@ const faqItems = [
 const fridayFreeCodeItems = [
 {
     question: "คูปองรายสัปดาห์ 100 รับ 50",
-    answer: "โค้ด : G2CT4BOZM7IEXOQF",
+    answer: "โค้ด : C38JUP05QZQJDCQI",
   },
   {
     question: "คูปองรายสัปดาห์ 500 รับ 100",
-    answer: "โค้ด : NGXNSATINA5OHA1H",
+    answer: "โค้ด : 43K3A2JCVL8R1E70",
   },
   {
     question: "คูปองรายสัปดาห์ 1000 รับ 300",
-    answer: "โค้ด : HURN9XGC9UXQH1ZQ",
+    answer: "โค้ด : 7KJE078IPN80L4KY",
   }
 ];
 
